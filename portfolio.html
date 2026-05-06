@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Navegue pela galeria completa de trabalhos de Sofia.">
+    <title>Portfólio | Sofia Designer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Sofia</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="services.html">Serviços</a></li>
+                <li><a href="contact.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Spotify Slide-out -->
+    <div id="spotify-btn" class="spotify-btn">♫ Playlist</div>
+    <div id="spotify-panel" class="spotify-panel">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/73BxUSHSjRcoliJeAZDlij?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+
+    <main>
+        <h1 style="text-align: center; display: block;">Galeria</h1>
+        <p style="text-align: center; max-width: 600px; margin: 0 auto 2rem auto; font-size: 1.1rem;">
+            Explore todos os meus projetos criativos. Clique em qualquer imagem para ver mais detalhes.
+        </p>
+
+        <div id="portfolio-sections">
+            <!-- Populated by JS -->
+        </div>
+    </main>
+
+    <!-- Lightbox Pop-up -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <div id="lightbox-caption" class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Feito com criatividade por Sofia &copy; 2026</p>
+    </footer>
+
+    <script src="js/portfolio-data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

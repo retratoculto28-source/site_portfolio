@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel da Designer | Mensagens</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Sofia</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Ver Site</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="login-section" class="login-box paper-note">
+            <h2>Área Restrita</h2>
+            <p>Insira a palavra-passe para ver as mensagens.</p>
+            <p id="error-msg" style="color: red; font-weight: bold; display: none;"></p>
+            <form id="login-form" style="margin-top: 2rem;">
+                <input type="password" id="password" placeholder="Palavra-passe" required style="margin-bottom: 1rem; width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                <button type="submit" style="width: 100%;">Entrar</button>
+            </form>
+        </div>
+
+        <div id="admin-section" class="admin-container">
+            <button id="logout-btn" class="logout-btn">Terminar Sessão</button>
+            <h1>As Minhas Mensagens</h1>
+            <p style="margin-bottom: 3rem;">Bem-vinda ao teu painel! Aqui estão todos os contactos recebidos através do site.</p>
+            <div id="messages-container"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Feito com criatividade por Sofia &copy; 2026</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
