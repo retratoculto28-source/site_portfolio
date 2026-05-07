@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do site de portfólio de **A Arte de Sofia**. Este projeto é um website pessoal construído com uma estética visual imersiva que simula um "scrapbook" (um diário gráfico / álbum de recortes), criado para destacar trabalhos criativos de Design, Ilustração e Fotografia.
 
-## 🎨 Características do Projeto
+## Características do Projeto
 
 *   **Identidade Visual Renovada**: O site utiliza a marca **A Arte de Sofia**, com tipografia cuidada, um **favicon transparente** personalizado e uma **assinatura visual** estilizada na página inicial.
 *   **Estética Scrapbook Minimalista**: Design focado em texturas de papel e elementos táteis, recentemente refinado para um aspeto mais limpo e profissional através da **remoção de emojis**, focando exclusivamente na tipografia e nos elementos gráficos.
@@ -15,14 +15,14 @@ Bem-vindo ao repositório do site de portfólio de **A Arte de Sofia**. Este pro
 *   **Sistema de Avaliações (Testemunhos)**: Página interativa (`reviews.html`) com moderação admin, permitindo que clientes avaliem o trabalho através de estrelas.
 *   **Painel Admin Centralizado**: Interface privada protegida por palavra-passe para gestão eficiente de mensagens de contacto e aprovação de testemunhos.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 *   **Frontend**: HTML5, CSS3 Vanilla (Custom Properties, Flexbox, Grid), JavaScript Vanilla.
 *   **Backend**: PHP 8+ (APIs JSON, Sessões Seguras).
 *   **Base de Dados**: MySQL (Tabelas otimizadas para Contactos e Reviews).
 *   **Design**: Google Fonts (`Caveat`, `Playfair Display`, `Quicksand`), Texturas transparentes.
 
-## 🚀 Como Executar Localmente
+## Como Executar Localmente
 
 É necessário um servidor que suporte PHP e MySQL (ex: XAMPP).
 
@@ -33,7 +33,7 @@ Bem-vindo ao repositório do site de portfólio de **A Arte de Sofia**. Este pro
     *   Importar o esquema de `api/database.sql`.
 4.  **Aceder**: `http://localhost/site_portfolio/index.html`.
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 site_portfolio/
