@@ -47,7 +47,10 @@ site_portfolio/
 ├── js/
 │   ├── script.js         # Lógica Principal (Nav, Lightbox, Admin)
 │   ├── reviews.js        # Lógica de Avaliações
-│   └── portfolio-data.js # Dados Higienizados do Portfólio
+│   ├── portfolio-data.js # Dados Higienizados do Portfólio
+│   ├── generate_portfolio.js # Script de geração de dados
+│   └── generate_portfolio.ps1 # Versão PowerShell do gerador
+├── python/               # Scripts auxiliares em Python
 └── api/                  # Backend PHP e Schema SQL
 ```
 

@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const portfolioDir = path.join(__dirname, 'Portfólio');
-const outputJsFile = path.join(__dirname, 'js', 'portfolio-data.js');
+const portfolioDir = path.join(__dirname, '..', 'Portfólio');
+const outputJsFile = path.join(__dirname, 'portfolio-data.js');
 let idCounter = 1;
 
 function readDirectory(dir, category = '', subcategory = '') {
@@ -80,6 +80,6 @@ function getCategoriesTree() {
 }
 `;
 
-fs.mkdirSync(path.join(__dirname, 'js'), { recursive: true });
+fs.mkdirSync(__dirname, { recursive: true });
 fs.writeFileSync(outputJsFile, jsContent);
 console.log('Successfully generated portfolio-data.js with ' + portfolioData.length + ' items.');
