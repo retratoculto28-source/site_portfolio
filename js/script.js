@@ -36,12 +36,159 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Render Portfolio Gallery with Lightbox
+    // Render Portfolio Gallery with Lightbox + Arrow Navigation
     const portfolioSections = document.getElementById('portfolio-sections');
-    const lightbox = document.getElementById('lightbox');
-    const lightboxImg = document.getElementById('lightbox-img');
-    const lightboxCaption = document.getElementById('lightbox-caption');
-    const lightboxClose = document.querySelector('.lightbox-close');
+    const lightbox           = document.getElementById('lightbox');
+    const lightboxImg        = document.getElementById('lightbox-img');
+    const lightboxCaption    = document.getElementById('lightbox-caption');
+    const lightboxCounter    = document.getElementById('lightbox-counter');
+    const lightboxClose      = document.querySelector('.lightbox-close');
+    const lightboxPrev       = document.getElementById('lightbox-prev');
+    const lightboxNext       = document.getElementById('lightbox-next');
+
+    // Flat list of all items in display order — populated while building the grid
+    let allItems     = [];
+    let currentIndex = 0;
+
+    if (portfolioSections && typeof getPortfolioItems === 'function') {
+        const items = getPortfolioItems();
+
+        // Group by category and subcategory
+        const grouped = {};
+        items.forEach(item => {
+            const cat = item.category    || 'Outros';
+            const sub = item.subcategory || 'Geral';
+            if (!grouped[cat])      grouped[cat]      = {};
+            if (!grouped[cat][sub]) grouped[cat][sub] = [];
+            grouped[cat][sub].push(item);
+        });
+
+        for (const cat in grouped) {
+            const catHeader = document.createElement('h2');
+            catHeader.textContent = cat;
+            catHeader.style.marginTop    = '3rem';
+            catHeader.style.borderBottom = '2px dashed var(--light-blue)';
+            catHeader.style.paddingBottom = '0.5rem';
+            portfolioSections.appendChild(catHeader);
+
+            for (const sub in grouped[cat]) {
+                if (sub !== 'Geral' || Object.keys(grouped[cat]).length > 1) {
+                    const subHeader = document.createElement('h3');
+                    subHeader.textContent = sub;
+                    subHeader.style.marginTop = '1.5rem';
+                    subHeader.style.color     = 'var(--text-dark)';
+                    portfolioSections.appendChild(subHeader);
+                }
+
+                const grid = document.createElement('section');
+                grid.className = 'gallery-grid';
+
+                grouped[cat][sub].forEach(item => {
+                    // Store item with its future index in the flat list
+                    const itemIndex = allItems.length;
+                    allItems.push(item);
+
+                    const polaroid = document.createElement('div');
+                    polaroid.className   = 'polaroid';
+                    polaroid.style.cursor = 'pointer';
+
+                    const img = document.createElement('img');
+                    img.src     = item.imagePath;
+                    img.alt     = item.title;
+                    img.loading = 'lazy';
+
+                    const caption = document.createElement('div');
+                    caption.className   = 'polaroid-caption';
+                    caption.textContent = item.title;
+
+                    const tape = document.createElement('div');
+                    tape.className = 'tape';
+
+                    polaroid.appendChild(tape);
+                    polaroid.appendChild(img);
+                    polaroid.appendChild(caption);
+
+                    // Open Lightbox on click
+                    polaroid.addEventListener('click', () => openLightbox(itemIndex));
+
+                    grid.appendChild(polaroid);
+                });
+
+                portfolioSections.appendChild(grid);
+            }
+        }
+
+        /* ── Core lightbox helpers ── */
+
+        function openLightbox(index) {
+            currentIndex = index;
+            updateLightboxContent();
+            lightbox.style.display = 'flex';
+            void lightbox.offsetWidth; // trigger reflow
+            lightbox.classList.add('show');
+        }
+
+        function updateLightboxContent() {
+            const item = allItems[currentIndex];
+
+            // Fade the image out, swap src, fade back in
+            lightboxImg.style.opacity = '0';
+            lightboxImg.style.transform = 'scale(0.96)';
+
+            setTimeout(() => {
+                lightboxImg.src = item.imagePath;
+                lightboxImg.alt = item.title;
+                lightboxCaption.innerHTML = `
+                    <h3>${item.title}</h3>
+                    <p>${item.description}</p>
+                    <p><small>Categoria: ${item.category}${item.subcategory ? ' › ' + item.subcategory : ''}</small></p>
+                `;
+                if (lightboxCounter) {
+                    lightboxCounter.textContent = `${currentIndex + 1} / ${allItems.length}`;
+                }
+                lightboxImg.style.opacity   = '1';
+                lightboxImg.style.transform = 'scale(1)';
+            }, 180);
+        }
+
+        function closeLightbox() {
+            lightbox.classList.remove('show');
+            setTimeout(() => {
+                lightbox.style.display = 'none';
+                lightboxImg.src = '';
+            }, 300);
+        }
+
+        function goPrev() {
+            currentIndex = (currentIndex - 1 + allItems.length) % allItems.length;
+            updateLightboxContent();
+        }
+
+        function goNext() {
+            currentIndex = (currentIndex + 1) % allItems.length;
+            updateLightboxContent();
+        }
+
+        /* ── Event listeners ── */
+
+        if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
+        if (lightboxPrev)  lightboxPrev.addEventListener('click',  (e) => { e.stopPropagation(); goPrev(); });
+        if (lightboxNext)  lightboxNext.addEventListener('click',  (e) => { e.stopPropagation(); goNext(); });
+
+        // Click outside content to close
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) closeLightbox();
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (lightbox.style.display !== 'flex') return;
+            if (e.key === 'Escape')      closeLightbox();
+            if (e.key === 'ArrowLeft')   goPrev();
+            if (e.key === 'ArrowRight')  goNext();
+        });
+    }
+
 
     if (portfolioSections && typeof getPortfolioItems === 'function') {
         const items = getPortfolioItems();
