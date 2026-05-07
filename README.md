@@ -4,7 +4,9 @@ Bem-vindo ao repositório do site de portfólio de **A Arte de Sofia**. Este pro
 
 ## 🎨 Características do Projeto
 
+*   **Identidade Visual Renovada**: O site utiliza a marca **A Arte de Sofia**, com tipografia cuidada, um **favicon transparente** personalizado e uma **assinatura visual** proeminente na página inicial.
 *   **Estética Scrapbook Autêntica**: Utilização de texturas de papel, fita adesiva virtual, fotografias em estilo "polaroid" ligeiramente inclinadas e tipografias que simulam caligrafia e máquinas de escrever.
+*   **Footer Informativo e Estilizado**: Novo footer multi-coluna com navegação rápida, informações de contacto reais (E-mail, Telemóvel) e integração com Instagram.
 *   **Galeria Dinâmica (Masonry Layout)**: A página de portfólio gera automaticamente a galeria a partir de uma base de dados local em JavaScript (`portfolio-data.js`). Utiliza um layout de colunas em estilo "masonry".
 *   **Lightbox Avançado com Navegação**: Sistema de pop-up para visualização ampliada com:
     *   Setas de navegação (**Anterior/Seguinte**).
@@ -12,7 +14,7 @@ Bem-vindo ao repositório do site de portfólio de **A Arte de Sofia**. Este pro
     *   Contador de itens (ex: `3 / 12`).
     *   Adaptação dinâmica ao tamanho e orientação da imagem.
 *   **Sistema de Avaliações (Testemunhos)**: Página pública (`reviews.html`) onde clientes podem deixar feedback com classificação por estrelas. As avaliações passam por aprovação da Sofia antes de serem publicadas.
-*   **Integração Spotify**: Painel deslizante lateral com playlist personalizada para uma experiência imersiva.
+*   **Integracão Spotify**: Painel deslizante lateral com playlist personalizada para uma experiência imersiva.
 *   **Painel de Administração (Admin v2)**: Área privada protegida por palavra-passe com interface por **separadores (Tabs)** para gerir mensagens e avaliações de A Arte de Sofia.
 
 ## 🛠️ Tecnologias Utilizadas
@@ -43,6 +45,7 @@ site_portfolio/
 ├── services.html         # Página de Serviços
 ├── contact.html          # Formulário de Contacto
 ├── admin.html            # Painel de Gestão (Mensagens + Avaliações)
+├── favicon.png           # Ícone do separador (Transparente e Proporcional)
 ├── css/
 │   └── style.css         # Design System e Estética Visual
 ├── js/
