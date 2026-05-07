@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painel da Designer | Mensagens</title>
+    <title>Painel da Designer | Admin</title>
     <link rel="stylesheet" href="css/style.css">
-
 </head>
+
 <body>
     <header>
         <nav>
             <a href="index.html" class="logo">Sofia</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
             <ul class="nav-links">
                 <li><a href="index.html">Ver Site</a></li>
             </ul>
@@ -18,21 +24,55 @@
     </header>
 
     <main>
+        <!-- Login Box -->
         <div id="login-section" class="login-box paper-note">
-            <h2>Área Restrita</h2>
-            <p>Insira a palavra-passe para ver as mensagens.</p>
-            <p id="error-msg" style="color: red; font-weight: bold; display: none;"></p>
+            <h2>Área Restrita 🔒</h2>
+            <p>Insere a palavra-passe para aceder ao painel de administração.</p>
+            <p id="error-msg" style="color: #c0392b; font-weight: bold; display: none; margin-top: 1rem;"></p>
             <form id="login-form" style="margin-top: 2rem;">
-                <input type="password" id="password" placeholder="Palavra-passe" required style="margin-bottom: 1rem; width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
-                <button type="submit" style="width: 100%;">Entrar</button>
+                <input type="password" id="password" placeholder="Palavra-passe" required
+                    style="margin-bottom: 1rem; width: 100%; padding: 12px 15px; border: 2px solid var(--light-blue); border-radius: 6px; font-size: 1rem; font-family: var(--font-body);">
+                <button type="submit" style="width: 100%;">Entrar no Painel ✨</button>
             </form>
         </div>
 
+        <!-- Admin Panel -->
         <div id="admin-section" class="admin-container">
-            <button id="logout-btn" class="logout-btn">Terminar Sessão</button>
-            <h1>As Minhas Mensagens</h1>
-            <p style="margin-bottom: 3rem;">Bem-vinda ao teu painel! Aqui estão todos os contactos recebidos através do site.</p>
-            <div id="messages-container"></div>
+            <div
+                style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;">
+                <div>
+                    <h1>Painel da Designer</h1>
+                    <p style="color: #666;">Bem-vinda de volta! Gere as mensagens e as avaliações aqui.</p>
+                </div>
+                <button id="logout-btn" class="logout-btn">Terminar Sessão</button>
+            </div>
+
+            <!-- Tab Navigation -->
+            <div class="admin-tabs">
+                <button class="admin-tab active" id="tab-messages" data-tab="messages">
+                    📩 Mensagens
+                    <span class="tab-badge" id="badge-messages"></span>
+                </button>
+                <button class="admin-tab" id="tab-reviews" data-tab="reviews">
+                    ⭐ Avaliações
+                    <span class="tab-badge pending" id="badge-reviews"></span>
+                </button>
+            </div>
+
+            <!-- Messages Panel -->
+            <div id="panel-messages" class="admin-panel active">
+                <div id="messages-container"></div>
+            </div>
+
+            <!-- Reviews Panel -->
+            <div id="panel-reviews" class="admin-panel">
+                <div class="reviews-admin-filter">
+                    <button class="filter-btn active" data-filter="pending">Pendentes</button>
+                    <button class="filter-btn" data-filter="approved">Aprovadas</button>
+                    <button class="filter-btn" data-filter="all">Todas</button>
+                </div>
+                <div id="reviews-admin-container"></div>
+            </div>
         </div>
     </main>
 
@@ -42,4 +82,5 @@
 
     <script src="js/script.js"></script>
 </body>
+
 </html>

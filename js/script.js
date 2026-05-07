@@ -15,6 +15,26 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+    
+    // Mobile Menu Toggle
+    const menuToggle = document.getElementById('mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+    
+    if (menuToggle && navLinks) {
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.classList.toggle('is-active');
+        });
+        
+        // Close menu when clicking a link
+        const links = navLinks.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuToggle.classList.remove('is-active');
+            });
+        });
+    }
 
     // Render Portfolio Gallery with Lightbox
     const portfolioSections = document.getElementById('portfolio-sections');
@@ -175,11 +195,44 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
+        /* ── Tab switching ── */
+        const adminTabs = document.querySelectorAll('.admin-tab');
+        const adminPanels = document.querySelectorAll('.admin-panel');
+
+        adminTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                adminTabs.forEach(t => t.classList.remove('active'));
+                adminPanels.forEach(p => p.classList.remove('active'));
+                tab.classList.add('active');
+                const target = document.getElementById('panel-' + tab.dataset.tab);
+                if (target) target.classList.add('active');
+            });
+        });
+
+        /* ── Filter buttons in reviews panel ── */
+        let allAdminReviews = [];
+        let currentFilter = 'pending';
+
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilter = btn.dataset.filter;
+                renderAdminReviews(allAdminReviews, currentFilter);
+            });
+        });
+
         function showAdminPanel() {
             loginSection.style.display = 'none';
             adminSection.style.display = 'block';
             errorMsg.style.display = 'none';
-            
+            loadMessages();
+            loadAdminReviews();
+        }
+
+        /* ── Load contact messages ── */
+        function loadMessages() {
             fetch('api/admin.php?action=messages')
                 .then(res => res.json())
                 .then(data => {
@@ -189,6 +242,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     } else if (data.messages.length === 0) {
                         messagesContainer.innerHTML = `<div class="paper-note" style="text-align: center;"><p>Ainda não tens nenhuma mensagem. As coisas boas levam tempo! ✨</p></div>`;
                     } else {
+                        const badge = document.getElementById('badge-messages');
+                        if (badge) badge.textContent = data.messages.length;
+
                         data.messages.forEach(msg => {
                             const card = document.createElement('div');
                             card.className = 'message-card';
@@ -213,6 +269,124 @@ document.addEventListener('DOMContentLoaded', () => {
                 .catch(err => {
                     messagesContainer.innerHTML = `<div class="paper-note" style="border-left: 5px solid red;"><h3>Erro</h3><p>Não foi possível carregar as mensagens. O servidor pode estar desligado.</p></div>`;
                 });
+        }
+
+        /* ── Load admin reviews ── */
+        function loadAdminReviews() {
+            const container = document.getElementById('reviews-admin-container');
+            if (!container) return;
+
+            container.innerHTML = '<p style="color:#aaa; padding:2rem 0;">A carregar…</p>';
+
+            fetch('api/reviews.php?action=admin_list')
+                .then(res => res.json())
+                .then(data => {
+                    if (data.error) {
+                        container.innerHTML = `<div class="paper-note" style="border-left: 5px solid red;"><p>${escapeHtml(data.error)}</p></div>`;
+                        return;
+                    }
+                    allAdminReviews = data.reviews || [];
+
+                    // Badge: count pending
+                    const pendingCount = allAdminReviews.filter(r => r.approved == 0).length;
+                    const badge = document.getElementById('badge-reviews');
+                    if (badge) {
+                        badge.textContent = pendingCount > 0 ? pendingCount : '';
+                    }
+
+                    renderAdminReviews(allAdminReviews, currentFilter);
+                })
+                .catch(() => {
+                    if (container) container.innerHTML = '<p style="color:#c0392b;">Erro ao carregar avaliações.</p>';
+                });
+        }
+
+        function renderAdminReviews(reviews, filter) {
+            const container = document.getElementById('reviews-admin-container');
+            if (!container) return;
+
+            let filtered = reviews;
+            if (filter === 'pending')  filtered = reviews.filter(r => r.approved == 0);
+            if (filter === 'approved') filtered = reviews.filter(r => r.approved == 1);
+
+            container.innerHTML = '';
+
+            if (filtered.length === 0) {
+                container.innerHTML = `<div class="paper-note" style="text-align:center; margin-top:1.5rem;">
+                    <p>Nenhuma avaliação ${filter === 'pending' ? 'pendente' : filter === 'approved' ? 'aprovada' : ''} de momento. ✨</p>
+                </div>`;
+                return;
+            }
+
+            filtered.forEach(review => {
+                const card = document.createElement('div');
+                card.className = 'admin-review-card';
+                card.id = `rev-${review.id}`;
+
+                const dateStr = new Date(review.created_at).toLocaleDateString('pt-PT');
+                const stars = '★'.repeat(review.rating) + '☆'.repeat(5 - review.rating);
+                const statusBadge = review.approved == 1
+                    ? '<span class="status-badge approved">✔ Aprovada</span>'
+                    : '<span class="status-badge pending">⏳ Pendente</span>';
+
+                card.innerHTML = `
+                    <div class="admin-review-header">
+                        <div>
+                            <strong>${escapeHtml(review.name)}</strong>
+                            ${review.role ? `<span style="color:#999;font-size:0.85rem;"> · ${escapeHtml(review.role)}</span>` : ''}
+                        </div>
+                        <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap;">
+                            <span style="color:#f5a623;font-size:1.1rem;">${stars}</span>
+                            ${statusBadge}
+                            <span style="color:#bbb;font-size:0.8rem;">${dateStr}</span>
+                        </div>
+                    </div>
+                    <p class="admin-review-comment">"${escapeHtml(review.comment)}"</p>
+                    <div class="admin-review-actions">
+                        ${review.approved == 0
+                            ? `<button class="btn-approve" data-id="${review.id}">✔ Aprovar</button>`
+                            : '<span style="color:#2d6a4f;font-size:0.9rem;">✔ Já aprovada</span>'
+                        }
+                        <button class="btn-delete" data-id="${review.id}">✕ Eliminar</button>
+                    </div>
+                `;
+
+                // Approve
+                const approveBtn = card.querySelector('.btn-approve');
+                if (approveBtn) {
+                    approveBtn.addEventListener('click', () => {
+                        approveBtn.disabled = true;
+                        approveBtn.textContent = 'A aprovar…';
+                        const fd = new FormData();
+                        fd.append('id', review.id);
+                        fetch('api/reviews.php?action=approve', { method: 'POST', body: fd })
+                            .then(r => r.json())
+                            .then(d => {
+                                if (d.success) {
+                                    review.approved = 1;
+                                    loadAdminReviews();
+                                }
+                            });
+                    });
+                }
+
+                // Delete
+                const deleteBtn = card.querySelector('.btn-delete');
+                if (deleteBtn) {
+                    deleteBtn.addEventListener('click', () => {
+                        if (!confirm(`Eliminar a avaliação de "${review.name}"?`)) return;
+                        const fd = new FormData();
+                        fd.append('id', review.id);
+                        fetch('api/reviews.php?action=delete', { method: 'POST', body: fd })
+                            .then(r => r.json())
+                            .then(d => {
+                                if (d.success) loadAdminReviews();
+                            });
+                    });
+                }
+
+                container.appendChild(card);
+            });
         }
 
         function escapeHtml(unsafe) {
