@@ -5,59 +5,50 @@ Bem-vindo ao repositório do site de portfólio de **A Arte de Sofia**. Este pro
 ## 🎨 Características do Projeto
 
 *   **Identidade Visual Renovada**: O site utiliza a marca **A Arte de Sofia**, com tipografia cuidada, um **favicon transparente** personalizado e uma **assinatura visual** estilizada na página inicial.
-*   **Estética Scrapbook Autêntica**: Utilização de texturas de papel, fita adesiva virtual, fotografias em estilo "polaroid" ligeiramente inclinadas e tipografias que simulam caligrafia e máquinas de escrever.
-*   **Footer Profissional e Responsivo**: Footer multi-coluna com navegação rápida, informações de contacto reais (E-mail, Telemóvel) e integração com Instagram. Implementado com um layout flexível para máxima estabilidade.
-*   **Galeria Dinâmica (Masonry Layout)**: A página de portfólio gera automaticamente a galeria a partir de uma base de dados local em JavaScript (`portfolio-data.js`). Utiliza um layout de colunas em estilo "masonry".
-*   **Lightbox Avançado com Navegação**: Sistema de pop-up para visualização ampliada com:
-    *   Setas de navegação (**Anterior/Seguinte**).
-    *   Suporte a teclado (teclas `←` e `→`).
-    *   Contador de itens (ex: `3 / 12`).
-    *   Adaptação dinâmica ao tamanho e orientação da imagem.
-*   **Sistema de Avaliações (Testemunhos)**: Página pública (`reviews.html`) onde clientes podem deixar feedback com classificação por estrelas. As avaliações passam por aprovação da Sofia antes de serem publicadas.
-*   **Integração Spotify**: Painel deslizante lateral com playlist personalizada para uma experiência imersiva.
-*   **Painel de Administração (Admin v2)**: Área privada protegida por palavra-passe com interface por **separadores (Tabs)** para gerir mensagens e avaliações de A Arte de Sofia.
+*   **Estética Scrapbook Minimalista**: Design focado em texturas de papel e elementos táteis, recentemente refinado para um aspeto mais limpo e profissional através da **remoção de emojis**, focando exclusivamente na tipografia e nos elementos gráficos.
+*   **Responsividade Mobile Otimizada**: 
+    *   Layout "Lado a Lado" na homepage mesmo em ecrãs pequenos.
+    *   Controlos de Lightbox (setas e fechar) redesenhados para alta visibilidade e facilidade de toque em telemóveis.
+*   **Footer Profissional e Estável**: Footer multi-coluna com navegação rápida, contactos reais e integração social, otimizado para não causar oscilações de layout.
+*   **Galeria Dinâmica (Masonry Layout)**: Página de portfólio alimentada por uma base de dados JSON (`portfolio-data.js`) **totalmente higienizada e livre de duplicados**.
+*   **Lightbox Avançado**: Sistema de visualização imersiva com navegação por setas (visual e teclado), contador de itens e ajuste dinâmico de proporção.
+*   **Sistema de Avaliações (Testemunhos)**: Página interativa (`reviews.html`) com moderação admin, permitindo que clientes avaliem o trabalho através de estrelas.
+*   **Painel Admin Centralizado**: Interface privada protegida por palavra-passe para gestão eficiente de mensagens de contacto e aprovação de testemunhos.
 
 ## 🛠️ Tecnologias Utilizadas
 
-*   **Frontend**: HTML5, CSS3 Vanilla (Flexbox/Grid), JavaScript Vanilla.
-*   **Backend**: PHP 8+ (Processamento de formulários, sessões e APIs JSON).
-*   **Base de Dados**: MySQL (Gestão de contactos e avaliações).
-*   **Tipografia**: Google Fonts (`Caveat`, `Playfair Display`, `Quicksand`).
+*   **Frontend**: HTML5, CSS3 Vanilla (Custom Properties, Flexbox, Grid), JavaScript Vanilla.
+*   **Backend**: PHP 8+ (APIs JSON, Sessões Seguras).
+*   **Base de Dados**: MySQL (Tabelas otimizadas para Contactos e Reviews).
+*   **Design**: Google Fonts (`Caveat`, `Playfair Display`, `Quicksand`), Texturas transparentes.
 
 ## 🚀 Como Executar Localmente
 
-É necessário um servidor web local (como o XAMPP).
+É necessário um servidor que suporte PHP e MySQL (ex: XAMPP).
 
-1.  **Instalar o XAMPP** (Apache e MySQL ativos).
-2.  **Copiar** o repositório para a pasta `htdocs`.
-3.  **Configurar a Base de Dados**:
-    *   No phpMyAdmin, crie a base de dados `portfolio_db`.
-    *   Importe o ficheiro `api/database.sql` para criar as tabelas `contacts` e `reviews`.
-4.  **Abrir no Navegador**: Vá a `http://localhost/site_portfolio/index.html`.
+1.  **Ativar Servidor**: Apache e MySQL no Painel de Controlo do XAMPP.
+2.  **Preparar Ficheiros**: Colocar a pasta do projeto em `C:/xampp/htdocs/site_portfolio`.
+3.  **Configurar Base de Dados**:
+    *   Criar base de dados `portfolio_db`.
+    *   Importar o esquema de `api/database.sql`.
+4.  **Aceder**: `http://localhost/site_portfolio/index.html`.
 
-## 📁 Estrutura de Ficheiros Relevantes
+## 📁 Estrutura do Projeto
 
 ```
 site_portfolio/
-├── index.html            # Sobre Mim
-├── portfolio.html        # Galeria Dinâmica com Lightbox
-├── reviews.html          # Página Pública de Avaliações
-├── services.html         # Página de Serviços
-├── contact.html          # Formulário de Contacto
-├── admin.html            # Painel de Gestão (Mensagens + Avaliações)
-├── favicon.png           # Ícone do separador (Transparente e Proporcional)
-├── css/
-│   └── style.css         # Design System e Estética Visual
+├── index.html            # Homepage (Sobre Mim)
+├── portfolio.html        # Galeria com Lightbox Nav
+├── reviews.html          # Feed Público de Testemunhos
+├── services.html         # Lista de Serviços e Ferramentas
+├── contact.html          # Área de Contacto
+├── admin.html            # Painel de Controlo Privado
+├── css/style.css         # Design System e Mobile-First Media Queries
 ├── js/
-│   ├── script.js         # Lógica Global (Lightbox Nav, Tabs, Admin)
-│   ├── reviews.js        # Lógica de submissão e feed de avaliações
-│   └── portfolio-data.js # Base de dados de imagens
-├── api/
-│   ├── contact.php       # API de Contactos
-│   ├── admin.php         # API de Autenticação e Mensagens
-│   ├── reviews.php       # API de Moderação de Avaliações
-│   └── database.sql      # Schema da Base de Dados
-└── Portfólio/            # Imagens do Portfólio
+│   ├── script.js         # Lógica Principal (Nav, Lightbox, Admin)
+│   ├── reviews.js        # Lógica de Avaliações
+│   └── portfolio-data.js # Dados Higienizados do Portfólio
+└── api/                  # Backend PHP e Schema SQL
 ```
 
 ---

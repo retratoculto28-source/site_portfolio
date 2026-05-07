@@ -545,13 +545,30 @@ button:hover {
 
 @media (max-width: 768px) {
     .lightbox-arrow {
-        font-size: 2rem;
-        width: 50px;
-        height: 50px;
+        font-size: 1.8rem;
+        width: 48px;
+        height: 48px;
         padding: 0;
+        background: rgba(122, 101, 166, 0.9); /* More opaque brand purple */
+        box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        border: 2px solid white;
     }
-    .lightbox-prev { left: 10px; }
-    .lightbox-next { right: 10px; }
+    .lightbox-prev { left: 15px; }
+    .lightbox-next { right: 15px; }
+
+    .lightbox-close {
+        top: 15px;
+        right: 15px;
+        font-size: 30px;
+        background: rgba(0,0,0,0.6);
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        line-height: 1;
+    }
 }
 
 /* Footer */
@@ -779,15 +796,23 @@ h3 { font-size: clamp(1.2rem, 5vw, 1.8rem); }
     main { margin: 6rem auto 2rem auto; }
 
     .hero {
-        flex-direction: column;
-        text-align: center;
-        gap: 4rem;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
     }
 
-    .hero-text { order: 2; }
-    .hero-image { order: 1; width: 90%; max-width: 350px; }
+    .hero-text { flex: 1.2; text-align: left; }
+    .hero-image { flex: 1; width: auto; max-width: none; }
     
-    .paper-note { padding: 1.5rem; }
+    .hero-text p { font-size: 0.9rem; margin-bottom: 0.5rem; }
+    .hero-text h1 { font-size: 1.5rem; }
+    
+    .paper-note { padding: 1.2rem; }
+    .polaroid { padding: 8px 8px 25px 8px; }
+    .polaroid-caption { font-size: 1.1rem; }
+    .paper-note::before { width: 12px; height: 12px; top: 5px; left: 5px; }
+    .tape { width: 60px; height: 20px; top: -10px; }
 
     .services-grid { grid-template-columns: 1fr; gap: 1.5rem; }
 

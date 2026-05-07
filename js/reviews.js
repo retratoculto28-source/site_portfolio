@@ -5,7 +5,7 @@
 
 const API = 'api/reviews.php';
 
-const starLabels = ['', 'Mau 😕', 'Fraco 😐', 'Bom 🙂', 'Muito Bom 😊', 'Excelente! 🤩'];
+const starLabels = ['', 'Mau', 'Fraco', 'Bom', 'Muito Bom', 'Excelente!'];
 
 /* ── Load & render approved reviews ── */
 async function loadReviews() {
@@ -139,7 +139,7 @@ function initForm() {
         successEl.style.display = 'none';
 
         if (!name || !rating || !comment) {
-            errorEl.textContent = '⚠️ Por favor preenche o nome, a classificação e o comentário.';
+            errorEl.textContent = 'Por favor preenche o nome, a classificação e o comentário.';
             errorEl.style.display = 'flex';
             errorEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
             return;
@@ -173,7 +173,7 @@ function initForm() {
                 errorEl.style.display = 'flex';
             }
         } catch (err) {
-            errorEl.textContent = '⚠️ Erro de ligação. Tenta novamente mais tarde.';
+            errorEl.textContent = 'Erro de ligação. Tenta novamente mais tarde.';
             errorEl.style.display = 'flex';
         } finally {
             btnText.style.display = 'inline';

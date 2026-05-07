@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 spotifyBtn.innerHTML = '✕ Fechar';
                 spotifyBtn.style.right = '320px';
             } else {
-                spotifyBtn.innerHTML = '♫ Playlist';
+                spotifyBtn.innerHTML = 'Playlist';
                 spotifyBtn.style.right = '0';
             }
         });
@@ -287,7 +287,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (data.error) {
                         messagesContainer.innerHTML = `<div class="paper-note" style="border-left: 5px solid red;"><h3>Erro na Base de Dados</h3><p>${data.error}</p></div>`;
                     } else if (data.messages.length === 0) {
-                        messagesContainer.innerHTML = `<div class="paper-note" style="text-align: center;"><p>Ainda não tens nenhuma mensagem. As coisas boas levam tempo! ✨</p></div>`;
+                        messagesContainer.innerHTML = `<div class="paper-note" style="text-align: center;"><p>Ainda não tens nenhuma mensagem. As coisas boas levam tempo!</p></div>`;
                     } else {
                         const badge = document.getElementById('badge-messages');
                         if (badge) badge.textContent = data.messages.length;
@@ -360,7 +360,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (filtered.length === 0) {
                 container.innerHTML = `<div class="paper-note" style="text-align:center; margin-top:1.5rem;">
-                    <p>Nenhuma avaliação ${filter === 'pending' ? 'pendente' : filter === 'approved' ? 'aprovada' : ''} de momento. ✨</p>
+                    <p>Nenhuma avaliação ${filter === 'pending' ? 'pendente' : filter === 'approved' ? 'aprovada' : ''} de momento.</p>
                 </div>`;
                 return;
             }

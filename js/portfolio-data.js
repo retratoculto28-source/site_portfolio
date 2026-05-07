@@ -1087,202 +1087,6 @@ const portfolioData = [
         "category":  "Ilustração",
         "subcategory":  "Affinity",
         "imagePath":  "Portfólio/Ilustração/Affinity/EXERCICIO_PICTOGRAMAS_SOFIAMONTEIRO.png",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  122,
-        "title":  "sangue vetor",
-        "description":  "Uma obra incrivel na categoria de Ilustração (Affinity). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Ilustração",
-        "subcategory":  "Affinity",
-        "imagePath":  "Portfólio/Ilustração/Affinity/sangue vetor.png",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  123,
-        "title":  "aurora 2",
-        "description":  "Uma obra incrivel na categoria de Ilustração (Ilustrator). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Ilustração",
-        "subcategory":  "Ilustrator",
-        "imagePath":  "Portfólio/Ilustração/Ilustrator/aurora 2.jpg",
-        "date":  "2026-04-13"
-    },
-    {
-        "category":  "Fotografia",
-        "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-56-23.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  103,
-        "title":  "photo 2026-04-27 15-57-08",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Pessoas). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-57-08.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  104,
-        "title":  "photo 2026-04-27 15-57-37",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Pessoas). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-57-37.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  105,
-        "title":  "photo 2026-04-27 16-00-01",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Pessoas). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_16-00-01.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  106,
-        "title":  "photo 2026-04-27 16-06-49",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Pessoas). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_16-06-49.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  107,
-        "title":  "photo 2026-04-27 16-11-20",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Pessoas). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_16-11-20.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  108,
-        "title":  "photo 2026-04-27 16-23-17",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Pessoas). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_16-23-17.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  109,
-        "title":  "photo 2026-02-28 21-48-35",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Viagens). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_21-48-35.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  110,
-        "title":  "photo 2026-02-28 21-50-35",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Viagens). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_21-50-35.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  111,
-        "title":  "photo 2026-02-28 22-03-20",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Viagens). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_22-03-20.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  112,
-        "title":  "photo 2026-02-28 22-14-07",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Viagens). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_22-14-07.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  113,
-        "title":  "photo 2026-02-28 22-16-15",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Viagens). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_22-16-15.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  114,
-        "title":  "photo 2026-02-28 22-22-24",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Viagens). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_22-22-24.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  115,
-        "title":  "photo 2026-04-27 15-10-03",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Viagens). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-04-27_15-10-03.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  116,
-        "title":  "photo 2026-04-27 15-12-58",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Viagens). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-04-27_15-12-58.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  117,
-        "title":  "photo 2026-04-27 15-18-43",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Viagens). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-04-27_15-18-43.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  118,
-        "title":  "photo 2026-04-27 15-19-04",
-        "description":  "Uma obra incrivel na categoria de Fotografia (Viagens). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-04-27_15-19-04.jpg",
-        "date":  "2026-05-06"
-    },
-    {
-        "id":  119,
-        "title":  "cartaz animação vetor 1.1",
-        "description":  "Uma obra incrivel na categoria de Ilustração (Affinity). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Ilustração",
-        "subcategory":  "Affinity",
-        "imagePath":  "Portfólio/Ilustração/Affinity/cartaz animação vetor 1.1.png",
-        "date":  "2025-11-26"
-    },
-    {
-        "id":  120,
-        "title":  "cartaz animação vetor 2.1",
-        "description":  "Uma obra incrivel na categoria de Ilustração (Affinity). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Ilustração",
-        "subcategory":  "Affinity",
-        "imagePath":  "Portfólio/Ilustração/Affinity/cartaz animação vetor 2.1.png",
-        "date":  "2025-11-26"
-    },
-    {
-        "id":  121,
-        "title":  "EXERCICIO PICTOGRAMAS SOFIAMONTEIRO",
-        "description":  "Uma obra incrivel na categoria de Ilustração (Affinity). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
-        "category":  "Ilustração",
-        "subcategory":  "Affinity",
-        "imagePath":  "Portfólio/Ilustração/Affinity/EXERCICIO_PICTOGRAMAS_SOFIAMONTEIRO.png",
-        "date":  "2026-05-06"
     },
     {
         "id":  122,
@@ -1319,6 +1123,15 @@ const portfolioData = [
         "subcategory":  "Figma",
         "imagePath":  "Portfólio/Design/Figma/A4 - 6.png",
         "date":  "2026-05-06"
+    },
+    {
+        "id": 126,
+        "title": "Eurus",
+        "description": "Uma obra incrivel na categoria de Ilustração (Ilustrator). Esta peca reflete criatividade, dedicacao e um olhar atento aos detalhes.",
+        "category": "Ilustração",
+        "subcategory": "Ilustrator",
+        "imagePath": "Portfólio/Ilustração/Ilustrator/eurus.jpg",
+        "date": "2026-05-07"
     }
 ];
 
