@@ -1,6 +1,6 @@
-# Sofia Designer | Portfólio Scrapbook
+# A Arte de Sofia | Portfólio Scrapbook
 
-Bem-vindo ao repositório do site de portfólio da **Sofia Designer**. Este projeto é um website pessoal construído com uma estética visual imersiva que simula um "scrapbook" (um diário gráfico / álbum de recortes), criado para destacar trabalhos criativos de Design, Ilustração e Fotografia.
+Bem-vindo ao repositório do site de portfólio de **A Arte de Sofia**. Este projeto é um website pessoal construído com uma estética visual imersiva que simula um "scrapbook" (um diário gráfico / álbum de recortes), criado para destacar trabalhos criativos de Design, Ilustração e Fotografia.
 
 ## 🎨 Características do Projeto
 
@@ -13,9 +13,7 @@ Bem-vindo ao repositório do site de portfólio da **Sofia Designer**. Este proj
     *   Adaptação dinâmica ao tamanho e orientação da imagem.
 *   **Sistema de Avaliações (Testemunhos)**: Página pública (`reviews.html`) onde clientes podem deixar feedback com classificação por estrelas. As avaliações passam por aprovação da Sofia antes de serem publicadas.
 *   **Integração Spotify**: Painel deslizante lateral com playlist personalizada para uma experiência imersiva.
-*   **Painel de Administração (Admin v2)**: Área privada protegida por palavra-passe com interface por **separadores (Tabs)** para gerir:
-    1.  **Mensagens**: Leitura de contactos recebidos.
-    2.  **Avaliações**: Sistema de moderação (Aprovar ou Eliminar testemunhos pendentes).
+*   **Painel de Administração (Admin v2)**: Área privada protegida por palavra-passe com interface por **separadores (Tabs)** para gerir mensagens e avaliações de A Arte de Sofia.
 
 ## 🛠️ Tecnologias Utilizadas
 
