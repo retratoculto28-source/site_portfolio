@@ -53,19 +53,24 @@ document.addEventListener('DOMContentLoaded', () => {
     if (portfolioSections && typeof getPortfolioItems === 'function') {
         const items = getPortfolioItems();
 
-        // Group by category and subcategory
+        // Group by category, subcategory, and project
         const grouped = {};
         items.forEach(item => {
             const cat = item.category    || 'Outros';
             const sub = item.subcategory || 'Geral';
-            if (!grouped[cat])      grouped[cat]      = {};
-            if (!grouped[cat][sub]) grouped[cat][sub] = [];
-            grouped[cat][sub].push(item);
+            const proj = item.project    || 'Geral';
+            
+            if (!grouped[cat])           grouped[cat]           = {};
+            if (!grouped[cat][sub])      grouped[cat][sub]      = {};
+            if (!grouped[cat][sub][proj]) grouped[cat][sub][proj] = [];
+            
+            grouped[cat][sub][proj].push(item);
         });
 
         for (const cat in grouped) {
             const catHeader = document.createElement('h2');
             catHeader.textContent = cat;
+            catHeader.className = 'category-header';
             catHeader.style.marginTop    = '3rem';
             catHeader.style.borderBottom = '2px dashed var(--light-blue)';
             catHeader.style.paddingBottom = '0.5rem';
@@ -75,46 +80,63 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (sub !== 'Geral' || Object.keys(grouped[cat]).length > 1) {
                     const subHeader = document.createElement('h3');
                     subHeader.textContent = sub;
-                    subHeader.style.marginTop = '1.5rem';
+                    subHeader.className = 'subcategory-header';
+                    subHeader.style.marginTop = '2rem';
                     subHeader.style.color     = 'var(--text-dark)';
                     portfolioSections.appendChild(subHeader);
                 }
 
-                const grid = document.createElement('section');
-                grid.className = 'gallery-grid';
+                for (const proj in grouped[cat][sub]) {
+                    if (proj !== 'Geral') {
+                        const projHeader = document.createElement('h4');
+                        projHeader.textContent = proj;
+                        projHeader.className = 'project-header';
+                        projHeader.style.marginTop = '1.5rem';
+                        projHeader.style.marginBottom = '1rem';
+                        projHeader.style.color = 'var(--purple)';
+                        projHeader.style.fontStyle = 'italic';
+                        portfolioSections.appendChild(projHeader);
+                    }
 
-                grouped[cat][sub].forEach(item => {
-                    // Store item with its future index in the flat list
-                    const itemIndex = allItems.length;
-                    allItems.push(item);
+                    const grid = document.createElement('section');
+                    grid.className = 'gallery-grid';
 
-                    const polaroid = document.createElement('div');
-                    polaroid.className   = 'polaroid';
-                    polaroid.style.cursor = 'pointer';
+                    grouped[cat][sub][proj].forEach(item => {
+                        const itemIndex = allItems.length;
+                        allItems.push(item);
 
-                    const img = document.createElement('img');
-                    img.src     = item.imagePath;
-                    img.alt     = item.title;
-                    img.loading = 'lazy';
+                        const polaroid = document.createElement('div');
+                        polaroid.className   = 'polaroid';
+                        polaroid.style.cursor = 'pointer';
 
-                    const caption = document.createElement('div');
-                    caption.className   = 'polaroid-caption';
-                    caption.textContent = item.title;
+                        const img = document.createElement('img');
+                        img.src     = item.imagePath;
+                        img.alt     = item.title || 'Portfolio Image';
+                        img.loading = 'lazy';
 
-                    const tape = document.createElement('div');
-                    tape.className = 'tape';
+                        const tape = document.createElement('div');
+                        tape.className = 'tape';
 
-                    polaroid.appendChild(tape);
-                    polaroid.appendChild(img);
-                    polaroid.appendChild(caption);
+                        polaroid.appendChild(tape);
+                        polaroid.appendChild(img);
 
-                    // Open Lightbox on click
-                    polaroid.addEventListener('click', () => openLightbox(itemIndex));
+                        // Only show caption if it's not Photography and has a title
+                        if (item.category !== 'Fotografia' && item.title) {
+                            const caption = document.createElement('div');
+                            caption.className   = 'polaroid-caption';
+                            caption.textContent = item.title;
+                            polaroid.appendChild(caption);
+                        } else {
+                            // Add extra padding to the bottom to keep the polaroid shape
+                            polaroid.style.paddingBottom = '20px';
+                        }
 
-                    grid.appendChild(polaroid);
-                });
+                        polaroid.addEventListener('click', () => openLightbox(itemIndex));
+                        grid.appendChild(polaroid);
+                    });
 
-                portfolioSections.appendChild(grid);
+                    portfolioSections.appendChild(grid);
+                }
             }
         }
 
@@ -131,17 +153,25 @@ document.addEventListener('DOMContentLoaded', () => {
         function updateLightboxContent() {
             const item = allItems[currentIndex];
 
-            // Fade the image out, swap src, fade back in
             lightboxImg.style.opacity = '0';
             lightboxImg.style.transform = 'scale(0.96)';
 
             setTimeout(() => {
                 lightboxImg.src = item.imagePath;
-                lightboxImg.alt = item.title;
+                lightboxImg.alt = item.title || 'Portfolio Image';
+                
+                let categoryInfo = item.category;
+                if (item.subcategory) categoryInfo += ' › ' + item.subcategory;
+                if (item.project && item.project !== 'Geral') categoryInfo += ' › ' + item.project;
+
+                // Hide title and description for Photography
+                const showTitle = item.category !== 'Fotografia' && item.title;
+                const showDesc  = item.category !== 'Fotografia' && item.description;
+
                 lightboxCaption.innerHTML = `
-                    <h3>${item.title}</h3>
-                    <p>${item.description}</p>
-                    <p><small>Categoria: ${item.category}${item.subcategory ? ' › ' + item.subcategory : ''}</small></p>
+                    ${showTitle ? `<h3>${item.title}</h3>` : ''}
+                    ${showDesc ? `<p>${item.description}</p>` : ''}
+                    <p><small>Categoria: ${categoryInfo}</small></p>
                 `;
                 if (lightboxCounter) {
                     lightboxCounter.textContent = `${currentIndex + 1} / ${allItems.length}`;
