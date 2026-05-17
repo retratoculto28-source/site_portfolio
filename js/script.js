@@ -36,6 +36,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Encode a file path so accented chars and spaces work in browsers
+    function encodeImagePath(rawPath) {
+        // Split by '?' to separate the path from query parameters (like ?v=2)
+        const parts = rawPath.split('?');
+        const pathPart = parts[0].split('/').map(seg => encodeURIComponent(seg)).join('/');
+        
+        // If there's a query string, append it back without encoding the ? and =
+        if (parts.length > 1) {
+            return pathPart + '?' + parts[1];
+        }
+        return pathPart;
+    }
+
     // Render Portfolio Gallery with Lightbox + Arrow Navigation
     const portfolioSections = document.getElementById('portfolio-sections');
     const lightbox           = document.getElementById('lightbox');
@@ -110,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         polaroid.style.cursor = 'pointer';
 
                         const img = document.createElement('img');
-                        img.src     = item.imagePath;
+                        img.src     = encodeImagePath(item.imagePath);
                         img.alt     = item.title || 'Portfolio Image';
                         img.loading = 'lazy';
 
@@ -157,7 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
             lightboxImg.style.transform = 'scale(0.96)';
 
             setTimeout(() => {
-                lightboxImg.src = item.imagePath;
+                lightboxImg.src = encodeImagePath(item.imagePath);
                 lightboxImg.alt = item.title || 'Portfolio Image';
                 
                 let categoryInfo = item.category;
@@ -219,6 +232,35 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    /* ═══════════════════════════════════════════════
+       Environment Detection & Contact Form Logic
+    ═══════════════════════════════════════════════ */
+    const isLocal = window.location.hostname === 'localhost' || 
+                    window.location.hostname === '127.0.0.1' || 
+                    window.location.hostname.endsWith('github.dev');
+    
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+            if (!isLocal) {
+                // On static hosting (like GitHub), use Formspree or redirect to mailto
+                // Change the action to a Formspree endpoint (Sofia will need to replace with her ID)
+                // For now, we use a placeholder or handle via JS
+                e.preventDefault();
+                
+                const name = contactForm.querySelector('[name="name"]').value;
+                const subject = contactForm.querySelector('[name="subject"]').value;
+                const body = contactForm.querySelector('[name="message"]').value;
+                
+                const mailtoLink = `mailto:sofiamonteiro.9@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("De: " + name + "\n\n" + body)}`;
+                
+                alert("Nota: Como este site está alojado de forma estática (GitHub), o formulário abrirá o teu email para enviar a mensagem diretamente para sofiamonteiro.9@gmail.com.");
+                window.location.href = mailtoLink;
+            }
+            // If local, let it submit to api/contact.php normally
+        });
+    }
+
     // Admin Panel Logic
     const loginSection = document.getElementById('login-section');
     const adminSection = document.getElementById('admin-section');
@@ -228,6 +270,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const logoutAdminBtn = document.getElementById('logout-btn');
 
     if (loginSection && adminSection && loginForm) {
+        if (!isLocal) {
+            loginForm.innerHTML = `
+                <div class="paper-note" style="border-left: 5px solid var(--purple); padding: 1rem; margin-bottom: 1rem;">
+                    <p><strong>Nota:</strong> O Painel Administrativo requer um servidor PHP/MySQL e não está disponível em sites estáticos como o GitHub Pages.</p>
+                    <p>Para gerir as suas mensagens e avaliações, utilize o seu ambiente local (XAMPP).</p>
+                </div>
+            `;
+            return;
+        }
+
         // Check if already logged in
         fetch('api/admin.php?action=check')
             .then(res => res.json())

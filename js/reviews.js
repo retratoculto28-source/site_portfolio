@@ -4,6 +4,27 @@
 ═══════════════════════════════════════════════ */
 
 const API = 'api/reviews.php';
+const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+
+// Mock reviews for static hosting (GitHub Pages)
+const mockReviews = [
+    {
+        id: 1,
+        name: "Ana Martins",
+        role: "Marketing Manager",
+        rating: 5,
+        comment: "Trabalhar com a Sofia foi uma experiência incrível. Ela captou exatamente o que precisávamos para a nossa campanha e entregou tudo dentro do prazo.",
+        created_at: "2026-04-15 10:30:00"
+    },
+    {
+        id: 2,
+        name: "Pedro Santos",
+        role: "Designer Freelancer",
+        rating: 4,
+        comment: "Excelente olhar crítico e atenção ao detalhe. Recomendo vivamente os serviços de revisão e design.",
+        created_at: "2026-05-02 14:20:00"
+    }
+];
 
 const starLabels = ['', 'Mau', 'Fraco', 'Bom', 'Muito Bom', 'Excelente!'];
 
@@ -13,8 +34,14 @@ async function loadReviews() {
     const noReviews = document.getElementById('no-reviews');
 
     try {
-        const res = await fetch(`${API}?action=list`);
-        const data = await res.json();
+        let data;
+        if (isLocal) {
+            const res = await fetch(`${API}?action=list`);
+            data = await res.json();
+        } else {
+            // Simulated response for static hosting
+            data = { reviews: mockReviews };
+        }
 
         feed.innerHTML = '';
 
@@ -159,18 +186,33 @@ function initForm() {
         formData.append('comment', comment);
 
         try {
-            const res = await fetch(`${API}?action=submit`, { method: 'POST', body: formData });
-            const data = await res.json();
+            if (isLocal) {
+                const res = await fetch(`${API}?action=submit`, { method: 'POST', body: formData });
+                const data = await res.json();
 
-            if (data.success) {
+                if (data.success) {
+                    handleSuccess();
+                } else {
+                    errorEl.textContent = data.error || 'Erro desconhecido.';
+                    errorEl.style.display = 'flex';
+                }
+            } else {
+                // Redirect to mailto on static hosting
+                const subject = `Nova Avaliação de Portfólio - ${name}`;
+                const bodyText = `Nome: ${name}\nCargo: ${role || 'N/A'}\nClassificação: ${rating} Estrela(s)\n\nComentário:\n${comment}`;
+                const mailtoLink = `mailto:sofiamonteiro.9@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyText)}`;
+                
+                alert("Aviso: Como este site está alojado de forma estática (GitHub), o formulário abrirá o teu email para enviar a avaliação diretamente para a designer.");
+                window.location.href = mailtoLink;
+                handleSuccess();
+            }
+
+            function handleSuccess() {
                 form.reset();
                 document.getElementById('char-count').textContent = '0 / 500';
                 document.getElementById('star-label').textContent = '';
                 successEl.style.display = 'flex';
                 successEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            } else {
-                errorEl.textContent = data.error || 'Erro desconhecido.';
-                errorEl.style.display = 'flex';
             }
         } catch (err) {
             errorEl.textContent = 'Erro de ligação. Tenta novamente mais tarde.';

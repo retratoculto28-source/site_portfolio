@@ -457,7 +457,7 @@ const portfolioData = [
         "category": "Design",
         "subcategory": "Figma",
         "project": "Elevação a Cidade",
-        "imagePath": "Portfólio/Design/Figma/Elevação a Cidade/Convite.png",
+        "imagePath": "Portfólio/Design/Figma/Elevação a Cidade/Convite.png?v=2",
         "date": "2026-05-09"
     },
     {
@@ -469,6 +469,86 @@ const portfolioData = [
         "project": "National Geographic",
         "imagePath": "Portfólio/Design/Figma/National Geographic/cartaz national.png",
         "date": "2026-05-09"
+    },
+    {
+        "id": 1001,
+        "title": "Banner Principal V2",
+        "description": "Criação de identidade visual para joelheria ficticia para duas versões de uma personagem de RPG textual juntamente com icon, banner e post ilustrativo da utilização da identidade",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Bloody Ruby",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Banner principal V2.jpg",
+        "date": "2026-05-17"
+    },
+    {
+        "id": 1002,
+        "title": "Banner Principal",
+        "description": "Criação de identidade visual para joelheria ficticia para duas versões de uma personagem de RPG textual juntamente com icon, banner e post ilustrativo da utilização da identidade",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Bloody Ruby",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Banner principal.jpg",
+        "date": "2026-05-17"
+    },
+    {
+        "id": 1003,
+        "title": "Bloody Ruby",
+        "description": "Criação de identidade visual para joelheria ficticia para duas versões de uma personagem de RPG textual juntamente com icon, banner e post ilustrativo da utilização da identidade",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Bloody Ruby",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Bloody Ruby.png",
+        "date": "2026-05-17"
+    },
+    {
+        "id": 1004,
+        "title": "Convite V2",
+        "description": "Criação de identidade visual para joelheria ficticia para duas versões de uma personagem de RPG textual juntamente com icon, banner e post ilustrativo da utilização da identidade",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Bloody Ruby",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Convite V2.png",
+        "date": "2026-05-17"
+    },
+    {
+        "id": 1005,
+        "title": "Convite",
+        "description": "Criação de identidade visual para joelheria ficticia para duas versões de uma personagem de RPG textual juntamente com icon, banner e post ilustrativo da utilização da identidade",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Bloody Ruby",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Convite.jpg",
+        "date": "2026-05-17"
+    },
+    {
+        "id": 1006,
+        "title": "Icon",
+        "description": "Criação de identidade visual para joelheria ficticia para duas versões de uma personagem de RPG textual juntamente com icon, banner e post ilustrativo da utilização da identidade",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Bloody Ruby",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Icon.jpg",
+        "date": "2026-05-17"
+    },
+    {
+        "id": 1007,
+        "title": "Combo Da Sorte",
+        "description": "Cartazes inspirados em excertos de músicas",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Cartazes musicais",
+        "imagePath": "Portfólio/Design/Figma/Cartazes musicais/Combo da Sorte.png",
+        "date": "2026-05-17"
+    },
+    {
+        "id": 1008,
+        "title": "Sooh Wish",
+        "description": "Identidade visual inicial da designer usada como base para o portfólio",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Sooh Wish",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Sooh Wish/Sooh Wish.png",
+        "date": "2026-05-17"
     },
     {
         "id": 48,
@@ -1301,6 +1381,96 @@ const portfolioData = [
         "subcategory": "Viagens",
         "imagePath": "Portfólio/Fotografia/Viagens/photo_2026-04-27_15-19-04.jpg",
         "date": "2026-05-06"
+    },
+    {
+        "id": 140,
+        "title": "Identidade Visual - Bloody Ruby",
+        "description": "Criação de identidade visual completa para o projeto Bloody Ruby, incluindo logotipo, banners e convites.",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Identidade Visual - Bloody Ruby",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Bloody Ruby.png",
+        "date": "2026-05-14"
+    },
+    {
+        "id": 141,
+        "title": "Banner Principal",
+        "description": "Criação de identidade visual completa para o projeto Bloody Ruby, incluindo logotipo, banners e convites.",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Identidade Visual - Bloody Ruby",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Banner principal.jpg",
+        "date": "2026-05-14"
+    },
+    {
+        "id": 142,
+        "title": "Banner Principal (V2)",
+        "description": "Criação de identidade visual completa para o projeto Bloody Ruby, incluindo logotipo, banners e convites.",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Identidade Visual - Bloody Ruby",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Banner principal V2.jpg",
+        "date": "2026-05-14"
+    },
+    {
+        "id": 143,
+        "title": "Convite",
+        "description": "Criação de identidade visual completa para o projeto Bloody Ruby, incluindo logotipo, banners e convites.",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Identidade Visual - Bloody Ruby",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Convite.jpg",
+        "date": "2026-05-14"
+    },
+    {
+        "id": 144,
+        "title": "Convite (V2)",
+        "description": "Criação de identidade visual completa para o projeto Bloody Ruby, incluindo logotipo, banners e convites.",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Identidade Visual - Bloody Ruby",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Convite V2.png",
+        "date": "2026-05-14"
+    },
+    {
+        "id": 145,
+        "title": "Icon",
+        "description": "Criação de identidade visual completa para o projeto Bloody Ruby, incluindo logotipo, banners e convites.",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Identidade Visual - Bloody Ruby",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Icon.jpg",
+        "date": "2026-05-14"
+    },
+    {
+        "id": 146,
+        "title": "Identidade Visual - Sooh Wish",
+        "description": "Criação de identidade visual para o projeto Sooh Wish.",
+        "category": "Design",
+        "subcategory": "Figma",
+        "project": "Identidade Visual - Sooh Wish",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Sooh Wish.png",
+        "date": "2026-05-14"
+    },
+    {
+        "id": 147,
+        "title": "Bilhete de Viagem",
+        "description": "Ilustração digital criada no Figma.",
+        "category": "Ilustração",
+        "subcategory": "Figma",
+        "project": "Viagem",
+        "imagePath": "Portfólio/Ilustração/Figma/Bilhete de Viagem.png",
+        "date": "2026-05-14"
+    },
+    {
+        "id": 148,
+        "title": "Passaporte",
+        "description": "Ilustração digital criada no Figma.",
+        "category": "Ilustração",
+        "subcategory": "Figma",
+        "project": "Viagem",
+        "imagePath": "Portfólio/Ilustração/Figma/Passaporte.png",
+        "date": "2026-05-14"
     }
 ];
 

@@ -16,14 +16,19 @@ project_descriptions = {
     "Outros Projetos": "Projetos avulsos que foram feitos e não utilizados.",
     "National Geographic": "Criação de capa de revista com o tema \"Espaço\".",
     "Elevação a Cidade": "Criação de cartaz com cronograma e convite para a elevação a cidade de Rio Tinto.",
-    "Cartaz de Dia Comemorativo": "Recriação de cartaz do Dia do Livro de 2015."
+    "Cartaz de Dia Comemorativo": "Recriação de cartaz do Dia do Livro de 2015.",
+    "Bloody Ruby": "Criação de identidade visual para joelheria ficticia para duas versões de uma personagem de RPG textual juntamente com icon, banner e post ilustrativo da utilização da identidade",
+    "Cartazes musicais": "Cartazes inspirados em excertos de músicas",
+    "Sooh Wish": "Identidade visual inicial da designer usada como base para o portfólio"
 }
 
 # Folder mapping (some folder names are slightly different from project names)
 folder_to_project = {
     "Posters de Filmes": "Pósteres de Filmes",
     "Memória do Mar": "Memórias do Mar",
-    "Cartaz de Data Comemorativa": "Cartaz de Dia Comemorativo"
+    "Cartaz de Data Comemorativa": "Cartaz de Dia Comemorativo",
+    "Identidade Visual/Bloody Ruby": "Bloody Ruby",
+    "Identidade Visual/Sooh Wish": "Sooh Wish"
 }
 
 def get_project_name(folder):
@@ -96,7 +101,15 @@ design_files = [
     ("Figma", "Cartaz de Data Comemorativa", "A4 - 3.png"),
     ("Figma", "Elevação a Cidade", "Cartaz.png"),
     ("Figma", "Elevação a Cidade", "Convite.png"),
-    ("Figma", "National Geographic", "cartaz national.png")
+    ("Figma", "National Geographic", "cartaz national.png"),
+    ("Figma", "Identidade Visual/Bloody Ruby", "Banner principal V2.jpg"),
+    ("Figma", "Identidade Visual/Bloody Ruby", "Banner principal.jpg"),
+    ("Figma", "Identidade Visual/Bloody Ruby", "Bloody Ruby.png"),
+    ("Figma", "Identidade Visual/Bloody Ruby", "Convite V2.png"),
+    ("Figma", "Identidade Visual/Bloody Ruby", "Convite.jpg"),
+    ("Figma", "Identidade Visual/Bloody Ruby", "Icon.jpg"),
+    ("Figma", "Cartazes musicais", "Combo da Sorte.png"),
+    ("Figma", "Identidade Visual/Sooh Wish", "Sooh Wish.png")
 ]
 
 # Helper to clean up filenames for titles
