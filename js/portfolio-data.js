@@ -605,7 +605,7 @@ const portfolioData = [
         "description": "Ilustração digital criada no Adobe Illustrator.",
         "category": "Ilustração",
         "subcategory": "Ilustrator",
-        "imagePath": "Portfólio/Ilustração/Ilustrator/Eurus e Erik.jpg",
+        "imagePath": "Portfólio/Ilustração/Ilustrator/eurus e erik.jpg",
         "date": "2026-04-14"
     },
     {
@@ -614,7 +614,7 @@ const portfolioData = [
         "description": "Ilustração digital criada no Adobe Illustrator.",
         "category": "Ilustração",
         "subcategory": "Ilustrator",
-        "imagePath": "Portfólio/Ilustração/Ilustrator/Eurus.jpg",
+        "imagePath": "Portfólio/Ilustração/Ilustrator/eurus.jpg",
         "date": "2026-05-07"
     },
     {
