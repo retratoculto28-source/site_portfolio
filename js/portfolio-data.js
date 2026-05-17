@@ -618,6 +618,24 @@ const portfolioData = [
         "date": "2026-05-07"
     },
     {
+        "id": 2001,
+        "title": "Bilhete de Viagem",
+        "description": "Ilustração digital de um bilhete de viagem criada no Figma.",
+        "category": "Ilustração",
+        "subcategory": "Figma",
+        "imagePath": "Portfólio/Ilustração/Figma/Bilhete de Viagem.png",
+        "date": "2026-05-17"
+    },
+    {
+        "id": 2002,
+        "title": "Passaporte",
+        "description": "Ilustração digital de um passaporte criada no Figma.",
+        "category": "Ilustração",
+        "subcategory": "Figma",
+        "imagePath": "Portfólio/Ilustração/Figma/Passaporte.png",
+        "date": "2026-05-17"
+    },
+    {
         "id": 55,
         "title": "",
         "description": "",
