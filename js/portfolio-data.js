@@ -547,7 +547,7 @@ const portfolioData = [
         "category": "Design",
         "subcategory": "Figma",
         "project": "Sooh Wish",
-        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Sooh Wish/Sooh Wish.png",
+        "imagePath": "Portfólio/Design/Figma/Identidade Visual/Sooh Wish/Sooh Wish.png?v=3",
         "date": "2026-05-17"
     },
     {
