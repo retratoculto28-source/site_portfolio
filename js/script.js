@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         polaroid.style.cursor = 'pointer';
 
                         const img = document.createElement('img');
-                        img.src     = encodeImagePath(item.imagePath);
+                        img.src     = encodeImagePath('../' + item.imagePath);
                         img.alt     = item.title || 'Portfolio Image';
                         img.loading = 'lazy';
 
@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
             lightboxImg.style.transform = 'scale(0.96)';
 
             setTimeout(() => {
-                lightboxImg.src = encodeImagePath(item.imagePath);
+                lightboxImg.src = encodeImagePath('../' + item.imagePath);
                 lightboxImg.alt = item.title || 'Portfolio Image';
                 
                 let categoryInfo = item.category;
