@@ -84,9 +84,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const catHeader = document.createElement('h2');
             catHeader.textContent = cat;
             catHeader.className = 'category-header';
-            catHeader.style.marginTop    = '3rem';
+            catHeader.style.marginTop    = '1.5rem';
             catHeader.style.borderBottom = '2px dashed var(--light-blue)';
-            catHeader.style.paddingBottom = '0.5rem';
+            catHeader.style.paddingBottom = '0.25rem';
             portfolioSections.appendChild(catHeader);
 
             for (const sub in grouped[cat]) {
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const subHeader = document.createElement('h3');
                     subHeader.textContent = sub;
                     subHeader.className = 'subcategory-header';
-                    subHeader.style.marginTop = '2rem';
+                    subHeader.style.marginTop = '1rem';
                     subHeader.style.color     = 'var(--text-dark)';
                     portfolioSections.appendChild(subHeader);
                 }
@@ -104,8 +104,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         const projHeader = document.createElement('h4');
                         projHeader.textContent = proj;
                         projHeader.className = 'project-header';
-                        projHeader.style.marginTop = '1.5rem';
-                        projHeader.style.marginBottom = '1rem';
+                        projHeader.style.marginTop = '0.8rem';
+                        projHeader.style.marginBottom = '0.5rem';
                         projHeader.style.color = 'var(--purple)';
                         projHeader.style.fontStyle = 'italic';
                         portfolioSections.appendChild(projHeader);
