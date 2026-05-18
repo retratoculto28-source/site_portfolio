@@ -127,6 +127,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         img.alt     = item.title || 'Portfolio Image';
                         img.loading = 'lazy';
 
+                        // Detect very tall images and span 2 grid rows
+                        img.addEventListener('load', () => {
+                            const ratio = img.naturalHeight / img.naturalWidth;
+                            if (ratio > 1.6) {
+                                polaroid.classList.add('polaroid--tall');
+                            }
+                        });
+
                         const tape = document.createElement('div');
                         tape.className = 'tape';
 

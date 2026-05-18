@@ -145,10 +145,15 @@ main {
     transform: rotate(-2deg);
     transition: transform 0.3s;
     position: relative;
-    break-inside: avoid;
-    margin-bottom: 2rem;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    align-self: start;
+}
+
+/* Very tall images span 2 grid rows */
+.polaroid--tall {
+    grid-row: span 2;
 }
 
 .polaroid:nth-child(even) {
@@ -300,20 +305,25 @@ h1 {
 
 /* Portfolio Gallery */
 .gallery-grid {
-    column-count: 3;
-    column-gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 2rem;
     margin-top: 2rem;
+    align-items: start;
 }
 
 @media (max-width: 900px) {
     .gallery-grid {
-        column-count: 2;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
     }
 }
 
 @media (max-width: 600px) {
     .gallery-grid {
-        column-count: 1;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
     }
 }
 
@@ -837,9 +847,9 @@ h3 { font-size: clamp(1.2rem, 5vw, 1.8rem); }
 
 @media (max-width: 480px) {
     .logo { font-size: 2rem; }
-    .polaroid { padding: 10px 10px 30px 10px; }
-    .polaroid-caption { font-size: 1.2rem; }
-    .tape { width: 80px; }
+    .polaroid { padding: 6px 6px 20px 6px; margin-bottom: 1rem; }
+    .polaroid-caption { font-size: 0.95rem; margin-top: 5px; }
+    .tape { width: 45px; height: 15px; top: -8px; }
     
     .lightbox-content { padding: 10px; }
     .lightbox-caption h3 { font-size: 1.5rem; }

@@ -542,6 +542,16 @@ const portfolioData = [
     },
     {
         "id":  55,
+        "title":  "A Rua",
+        "description":  "Cartazes inspirados em excertos de músicas",
+        "category":  "Design",
+        "subcategory":  "Figma",
+        "project":  "Cartazes musicais",
+        "imagePath":  "Portfólio/Design/Figma/Cartazes musicais/A Rua.jpg",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  56,
         "title":  "Sooh Wish",
         "description":  "Identidade visual inicial da designer usada como base para o portfólio",
         "category":  "Design",
@@ -551,7 +561,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  56,
+        "id":  57,
         "title":  "Capa Nebel (V1)",
         "description":  "Criação de ilustração para cartaz de animação.",
         "category":  "Ilustração",
@@ -561,7 +571,7 @@ const portfolioData = [
         "date":  "2026-05-09"
     },
     {
-        "id":  57,
+        "id":  58,
         "title":  "Capa Nebel (V2)",
         "description":  "Criação de ilustração para cartaz de animação.",
         "category":  "Ilustração",
@@ -571,7 +581,7 @@ const portfolioData = [
         "date":  "2026-05-09"
     },
     {
-        "id":  58,
+        "id":  59,
         "title":  "Identificação WC",
         "description":  "Projetos avulsos que foram feitos e não utilizados em designs.",
         "category":  "Ilustração",
@@ -581,7 +591,7 @@ const portfolioData = [
         "date":  "2026-05-09"
     },
     {
-        "id":  59,
+        "id":  60,
         "title":  "Ilustração Icon",
         "description":  "Projetos avulsos que foram feitos e não utilizados em designs.",
         "category":  "Ilustração",
@@ -591,7 +601,7 @@ const portfolioData = [
         "date":  "2026-05-09"
     },
     {
-        "id":  60,
+        "id":  61,
         "title":  "Aurora",
         "description":  "Ilustração digital criada no Adobe Illustrator.",
         "category":  "Ilustração",
@@ -600,7 +610,7 @@ const portfolioData = [
         "date":  "2026-04-13"
     },
     {
-        "id":  61,
+        "id":  62,
         "title":  "Eurus e Erik",
         "description":  "Ilustração digital criada no Adobe Illustrator.",
         "category":  "Ilustração",
@@ -609,7 +619,7 @@ const portfolioData = [
         "date":  "2026-04-14"
     },
     {
-        "id":  62,
+        "id":  63,
         "title":  "Eurus",
         "description":  "Ilustração digital criada no Adobe Illustrator.",
         "category":  "Ilustração",
@@ -618,7 +628,7 @@ const portfolioData = [
         "date":  "2026-05-07"
     },
     {
-        "id":  63,
+        "id":  64,
         "title":  "Bilhete de Viagem",
         "description":  "Ilustração digital de um bilhete de viagem criada no Figma.",
         "category":  "Ilustração",
@@ -627,7 +637,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  64,
+        "id":  65,
         "title":  "Passaporte",
         "description":  "Ilustração digital de um passaporte criada no Figma.",
         "category":  "Ilustração",
@@ -636,7 +646,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  65,
+        "id":  66,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -645,7 +655,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  66,
+        "id":  67,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -654,7 +664,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  67,
+        "id":  68,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -663,7 +673,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  68,
+        "id":  69,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -672,7 +682,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  69,
+        "id":  70,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -681,7 +691,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  70,
+        "id":  71,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -690,7 +700,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  71,
+        "id":  72,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -699,7 +709,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  72,
+        "id":  73,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -708,7 +718,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  73,
+        "id":  74,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -717,7 +727,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  74,
+        "id":  75,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -726,7 +736,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  75,
+        "id":  76,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -735,7 +745,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  76,
+        "id":  77,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -744,7 +754,7 @@ const portfolioData = [
         "date":  "2026-04-16"
     },
     {
-        "id":  77,
+        "id":  78,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -753,7 +763,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  78,
+        "id":  79,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -762,7 +772,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  79,
+        "id":  80,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -771,7 +781,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  80,
+        "id":  81,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -780,7 +790,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  81,
+        "id":  82,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -789,7 +799,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  82,
+        "id":  83,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -798,7 +808,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  83,
+        "id":  84,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -807,7 +817,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  84,
+        "id":  85,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -816,7 +826,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  85,
+        "id":  86,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -825,7 +835,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  86,
+        "id":  87,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -834,7 +844,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  87,
+        "id":  88,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -843,7 +853,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  88,
+        "id":  89,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -852,7 +862,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  89,
+        "id":  90,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -861,7 +871,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  90,
+        "id":  91,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -870,7 +880,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  91,
+        "id":  92,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -879,7 +889,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  92,
+        "id":  93,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -888,7 +898,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  93,
+        "id":  94,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -897,7 +907,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  94,
+        "id":  95,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -906,7 +916,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  95,
+        "id":  96,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -915,7 +925,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  96,
+        "id":  97,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -924,7 +934,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  97,
+        "id":  98,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -933,7 +943,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  98,
+        "id":  99,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -942,7 +952,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  99,
+        "id":  100,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -951,7 +961,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  100,
+        "id":  101,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -960,7 +970,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  101,
+        "id":  102,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -969,7 +979,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  102,
+        "id":  103,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -978,7 +988,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  103,
+        "id":  104,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -987,7 +997,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  104,
+        "id":  105,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -996,7 +1006,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  105,
+        "id":  106,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1005,7 +1015,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  106,
+        "id":  107,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1014,7 +1024,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  107,
+        "id":  108,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1023,7 +1033,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  108,
+        "id":  109,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1032,7 +1042,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  109,
+        "id":  110,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1041,7 +1051,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  110,
+        "id":  111,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1050,7 +1060,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  111,
+        "id":  112,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1059,7 +1069,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  112,
+        "id":  113,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1068,7 +1078,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  113,
+        "id":  114,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1077,7 +1087,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  114,
+        "id":  115,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1086,7 +1096,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  115,
+        "id":  116,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1095,7 +1105,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  116,
+        "id":  117,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1104,7 +1114,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  117,
+        "id":  118,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1113,7 +1123,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  118,
+        "id":  119,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1122,7 +1132,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  119,
+        "id":  120,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1131,7 +1141,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  120,
+        "id":  121,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1140,7 +1150,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  121,
+        "id":  122,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1149,7 +1159,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  122,
+        "id":  123,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1158,7 +1168,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  123,
+        "id":  124,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1167,7 +1177,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  124,
+        "id":  125,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1176,7 +1186,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  125,
+        "id":  126,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1185,7 +1195,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  126,
+        "id":  127,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1194,7 +1204,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  127,
+        "id":  128,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1203,7 +1213,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  128,
+        "id":  129,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1212,7 +1222,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  129,
+        "id":  130,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1221,7 +1231,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  130,
+        "id":  131,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1230,7 +1240,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  131,
+        "id":  132,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1239,7 +1249,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  132,
+        "id":  133,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1248,7 +1258,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  133,
+        "id":  134,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1257,7 +1267,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  134,
+        "id":  135,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1266,7 +1276,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  135,
+        "id":  136,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1275,7 +1285,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  136,
+        "id":  137,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1284,7 +1294,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  137,
+        "id":  138,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1293,7 +1303,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  138,
+        "id":  139,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1302,7 +1312,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  139,
+        "id":  140,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1311,7 +1321,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  140,
+        "id":  141,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1320,7 +1330,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  141,
+        "id":  142,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1329,7 +1339,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  142,
+        "id":  143,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1338,7 +1348,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  143,
+        "id":  144,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1347,7 +1357,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  144,
+        "id":  145,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1356,7 +1366,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  145,
+        "id":  146,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1365,7 +1375,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  146,
+        "id":  147,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1374,7 +1384,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  147,
+        "id":  148,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1383,7 +1393,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  148,
+        "id":  149,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1392,7 +1402,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  149,
+        "id":  150,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1401,7 +1411,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  150,
+        "id":  151,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1410,7 +1420,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  151,
+        "id":  152,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1419,7 +1429,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  152,
+        "id":  153,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1428,7 +1438,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  153,
+        "id":  154,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1437,7 +1447,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  154,
+        "id":  155,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1446,7 +1456,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  155,
+        "id":  156,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1455,7 +1465,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  156,
+        "id":  157,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1464,7 +1474,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  157,
+        "id":  158,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1473,7 +1483,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  158,
+        "id":  159,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1482,7 +1492,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  159,
+        "id":  160,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1491,7 +1501,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  160,
+        "id":  161,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1500,7 +1510,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  161,
+        "id":  162,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1509,7 +1519,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  162,
+        "id":  163,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1518,7 +1528,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  163,
+        "id":  164,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1527,7 +1537,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  164,
+        "id":  165,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1536,7 +1546,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  165,
+        "id":  166,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1545,7 +1555,7 @@ const portfolioData = [
         "date":  "2026-05-17"
     },
     {
-        "id":  166,
+        "id":  167,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1554,7 +1564,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  167,
+        "id":  168,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1563,7 +1573,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  168,
+        "id":  169,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1572,7 +1582,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  169,
+        "id":  170,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1581,7 +1591,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  170,
+        "id":  171,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1590,7 +1600,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  171,
+        "id":  172,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1599,7 +1609,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  172,
+        "id":  173,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1608,7 +1618,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  173,
+        "id":  174,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1617,7 +1627,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  174,
+        "id":  175,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1626,7 +1636,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  175,
+        "id":  176,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
@@ -1635,7 +1645,7 @@ const portfolioData = [
         "date":  "2026-05-06"
     },
     {
-        "id":  176,
+        "id":  177,
         "title":  "Identidade Visual - Bloody Ruby",
         "description":  "Criação de identidade visual completa para o projeto Bloody Ruby, incluindo logotipo, banners e convites.",
         "category":  "Design",
@@ -1645,7 +1655,7 @@ const portfolioData = [
         "date":  "2026-05-14"
     },
     {
-        "id":  177,
+        "id":  178,
         "title":  "Banner Principal",
         "description":  "Criação de identidade visual completa para o projeto Bloody Ruby, incluindo logotipo, banners e convites.",
         "category":  "Design",
@@ -1655,7 +1665,7 @@ const portfolioData = [
         "date":  "2026-05-14"
     },
     {
-        "id":  178,
+        "id":  179,
         "title":  "Banner Principal (V2)",
         "description":  "Criação de identidade visual completa para o projeto Bloody Ruby, incluindo logotipo, banners e convites.",
         "category":  "Design",
@@ -1665,7 +1675,7 @@ const portfolioData = [
         "date":  "2026-05-14"
     },
     {
-        "id":  179,
+        "id":  180,
         "title":  "Convite",
         "description":  "Criação de identidade visual completa para o projeto Bloody Ruby, incluindo logotipo, banners e convites.",
         "category":  "Design",
@@ -1675,7 +1685,7 @@ const portfolioData = [
         "date":  "2026-05-14"
     },
     {
-        "id":  180,
+        "id":  181,
         "title":  "Convite (V2)",
         "description":  "Criação de identidade visual completa para o projeto Bloody Ruby, incluindo logotipo, banners e convites.",
         "category":  "Design",
@@ -1685,7 +1695,7 @@ const portfolioData = [
         "date":  "2026-05-14"
     },
     {
-        "id":  181,
+        "id":  182,
         "title":  "Icon",
         "description":  "Criação de identidade visual completa para o projeto Bloody Ruby, incluindo logotipo, banners e convites.",
         "category":  "Design",
@@ -1695,7 +1705,7 @@ const portfolioData = [
         "date":  "2026-05-14"
     },
     {
-        "id":  182,
+        "id":  183,
         "title":  "Identidade Visual - Sooh Wish",
         "description":  "Criação de identidade visual para o projeto Sooh Wish.",
         "category":  "Design",
@@ -1705,7 +1715,7 @@ const portfolioData = [
         "date":  "2026-05-14"
     },
     {
-        "id":  183,
+        "id":  184,
         "title":  "Bilhete de Viagem",
         "description":  "Ilustração digital criada no Figma.",
         "category":  "Ilustração",
@@ -1715,7 +1725,7 @@ const portfolioData = [
         "date":  "2026-05-14"
     },
     {
-        "id":  184,
+        "id":  185,
         "title":  "Passaporte",
         "description":  "Ilustração digital criada no Figma.",
         "category":  "Ilustração",
