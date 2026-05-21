@@ -601,16 +601,6 @@ const portfolioData = [
         "date":  "2026-05-18"
     },
     {
-        "id":  61,
-        "title":  "Bloody Ruby",
-        "description":  "Criação de identidade visual completa, incluindo icon, banner principal e secundário.",
-        "category":  "Design",
-        "subcategory":  "Figma",
-        "project":  "Identidade Visual - Bloody Ruby",
-        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Bloody Ruby.png",
-        "date":  "2026-05-18"
-    },
-    {
         "id":  62,
         "title":  "Convite V2",
         "description":  "Criação de identidade visual completa, incluindo icon, banner principal e secundário.",
@@ -638,6 +628,16 @@ const portfolioData = [
         "subcategory":  "Figma",
         "project":  "Identidade Visual - Bloody Ruby",
         "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Icon.jpg",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  61,
+        "title":  "Bloody Ruby",
+        "description":  "Criação de identidade visual completa, incluindo icon, banner principal e secundário.",
+        "category":  "Design",
+        "subcategory":  "Figma",
+        "project":  "Identidade Visual - Bloody Ruby",
+        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Bloody Ruby.png",
         "date":  "2026-05-18"
     },
     {

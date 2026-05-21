@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         // Detect very tall images and span 2 grid rows
                         img.addEventListener('load', () => {
                             const ratio = img.naturalHeight / img.naturalWidth;
-                            if (ratio > 1.6) {
+                            if (ratio > 1.6 && item.project !== 'Identidade Visual - Bloody Ruby') {
                                 polaroid.classList.add('polaroid--tall');
                             }
                         });
