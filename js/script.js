@@ -36,6 +36,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Highlight current page link
+    const currentPage = window.location.pathname.split('/').pop();
+    const navAnchors = document.querySelectorAll('.nav-links a');
+    navAnchors.forEach(anchor => {
+        const href = anchor.getAttribute('href');
+        if (href === currentPage || (href === 'index.html' && (currentPage === '' || currentPage === 'index.html'))) {
+            anchor.classList.add('active');
+        }
+    });
+
     // Encode a file path so accented chars and spaces work in browsers
     function encodeImagePath(rawPath) {
         // Split by '?' to separate the path from query parameters (like ?v=2)

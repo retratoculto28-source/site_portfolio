@@ -42,42 +42,42 @@ const portfolioData = [
     },
     {
         "id":  5,
-        "title":  "UC00505 - SOFIA_MONTEIRO_CARTAZ_FILME 2",
+        "title":  "Five Nights at Freddy's",
         "description":  "",
         "category":  "Design",
         "subcategory":  "Affinity",
         "project":  "Posters de Filmes",
-        "imagePath":  "Portfólio/Design/Affinity/Posters de Filmes/UC00505 - SOFIA_MONTEIRO_CARTAZ_FILME 2.png",
+        "imagePath":  "Portfólio/Design/Affinity/Posters de Filmes/Five Nights at Freddy's.png",
         "date":  "2026-05-18"
     },
     {
         "id":  6,
-        "title":  "UC00505 - SOFIA_MONTEIRO_CARTAZ_FILME 3",
+        "title":  "The Secret of Moonacre",
         "description":  "",
         "category":  "Design",
         "subcategory":  "Affinity",
         "project":  "Posters de Filmes",
-        "imagePath":  "Portfólio/Design/Affinity/Posters de Filmes/UC00505 - SOFIA_MONTEIRO_CARTAZ_FILME 3.png",
+        "imagePath":  "Portfólio/Design/Affinity/Posters de Filmes/The Secret of Moonacre.png",
         "date":  "2026-05-18"
     },
     {
         "id":  7,
-        "title":  "UC00505 - SOFIA_MONTEIRO_CARTAZ_FILME",
+        "title":  "Toy Story",
         "description":  "",
         "category":  "Design",
         "subcategory":  "Affinity",
         "project":  "Posters de Filmes",
-        "imagePath":  "Portfólio/Design/Affinity/Posters de Filmes/UC00505 - SOFIA_MONTEIRO_CARTAZ_FILME.png",
+        "imagePath":  "Portfólio/Design/Affinity/Posters de Filmes/Toy Story.png",
         "date":  "2026-05-18"
     },
     {
         "id":  8,
-        "title":  "UC00504_SOFIAMONTEIRO_CARTÃOVISITA",
+        "title":  "Cartão de Visita Soo I Wish",
         "description":  "",
         "category":  "Design",
         "subcategory":  "Affinity",
         "project":  "Soo I Wish",
-        "imagePath":  "Portfólio/Design/Affinity/Soo I Wish/UC00504_SOFIAMONTEIRO_CARTÃOVISITA.png",
+        "imagePath":  "Portfólio/Design/Affinity/Soo I Wish/Cartão de visita Soo I Wish.png",
         "date":  "2026-05-18"
     },
     {
