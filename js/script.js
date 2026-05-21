@@ -90,6 +90,34 @@ document.addEventListener('DOMContentLoaded', () => {
     const lightboxPrev       = document.getElementById('lightbox-prev');
     const lightboxNext       = document.getElementById('lightbox-next');
 
+    const projectDescriptions = {
+        "Cine en Flor": "Criação de logotipo, flyer A3 e poster para festival de cinema, utilizando cores suaves e tipografia delicada mas diferentes para representar a primavera.",
+        "Soo I Wish": "Criação de cartão de visita para livraria beneficiente, utilizando cores e tipografias que remetem a um ambiente calmo e fantasioso.",
+        "Posters de Filmes": "Recriação de pósteres em vetor simplificado de alguns filmes.",
+        "Prince of Lies": "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual e de playlist, e capa de episódio e banner de final de episódio.",
+        "Memória do Mar": "Criação de icon, banner principal e secundário de apresentação e inspirações de personagem de RPG textual. O banner teve duas versões.",
+        "Poison Ivy": "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual.",
+        "Bird of Prey": "Criação de banner principal e secundário de apresentação de personagem de RPG textual.",
+        "Tales of Tavros": "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual. Igualmente de capa de livro nas cores de dois personagens principais da trama.",
+        "Heartbreak": "Criação de capa e tracklist de um álbum fictício.",
+        "Cartaz de Data Comemorativa": "Recriação de cartaz do Dia do Livro de 2015.",
+        "National Geographic": "Criação de capa de revista com o tema \"Espaço\".",
+        "Elevação a Cidade": "Criação de cartaz com cronograma e convite para a elevação a cidade de Rio Tinto.",
+        "Nebel": "Criação de ilustração para cartaz de animação.",
+        "Outros Projetos": "Projetos avulsos que foram feitos e não utilizados.",
+        "Identidade Visual - Bloody Ruby": "Criação de identidade visual de uma joalheria medieval junto de banners, icon e convite para introdução de uma personagem de RPG textual.",
+        "Identidade Visual - First Moon Blood": "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual.",
+        "Outros": "Projetos avulsos que foram feitos e não utilizados em designs."
+    };
+
+    function getProjectDescription(project) {
+        if (!project) return '';
+        if (project.startsWith('Junta de Freguesia de Rio Tinto')) {
+            return 'Designs criados ao longo de um estágio para publicação e utilização em eventos.';
+        }
+        return projectDescriptions[project] || '';
+    }
+
     // Flat list of all items in display order — populated while building the grid
     let allItems     = [];
     let currentIndex = 0;
@@ -218,11 +246,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Hide title and description for Photography
                 const showTitle = item.category !== 'Fotografia' && item.title;
-                const showDesc  = item.category !== 'Fotografia' && item.description;
+                const description = item.category !== 'Fotografia' ? (item.description || getProjectDescription(item.project)) : '';
+                const showDesc  = !!description;
 
                 lightboxCaption.innerHTML = `
                     ${showTitle ? `<h3>${item.title}</h3>` : ''}
-                    ${showDesc ? `<p>${item.description}</p>` : ''}
+                    ${showDesc ? `<p>${description}</p>` : ''}
                     <p><small>Categoria: ${categoryInfo}</small></p>
                 `;
                 if (lightboxCounter) {

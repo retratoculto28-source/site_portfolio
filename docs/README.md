@@ -40,6 +40,7 @@ O projeto encontra-se **altamente organizado por tipo de ficheiro**, mantendo a 
 ## Atualização Recente
 
 *   Ajuste das cores de texto e hiperligações da secção de contactos (`.contact-info`) para melhorar a legibilidade no modo claro e no modo escuro.
+*   Implementação de descrições de projetos nos pop-ups do portfólio, com agrupamento por categoria, subcategoria e projeto para refletir a estrutura de subpastas.
 
 ---
 

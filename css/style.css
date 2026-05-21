@@ -602,9 +602,10 @@ button:hover {
 }
 
 .lightbox-caption h3 {
-    font-family: var(--font-handwriting);
+    font-family: var(--font-heading);
     font-size: 2rem;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .lightbox-close {
@@ -1841,9 +1842,10 @@ h3 {
 /* Lightbox Polish */
 .lightbox-caption h3 {
     color: var(--purple);
-    font-family: var(--font-handwriting);
+    font-family: var(--font-heading);
     font-size: 2.5rem;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .lightbox-caption p {
