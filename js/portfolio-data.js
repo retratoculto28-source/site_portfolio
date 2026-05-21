@@ -2,163 +2,163 @@
 const portfolioData = [
     {
         "id":  1,
-        "title":  "Flyer A3 (Página 1)",
-        "description":  "Criação de logotipo, flyer A3 e poster para festival de cinema, utilizando cores suaves e tipografia delicada mas diferentes para representar a primavera.",
-        "category":  "Design",
-        "subcategory":  "Affinity",
-        "project":  "Cine en Flor",
-        "imagePath":  "Portfólio/Design/Affinity/Cine en Flor/Flyer.png",
-        "date":  "2026-05-09"
-    },
-    {
-        "id":  2,
-        "title":  "Flyer A3 (Página 2)",
-        "description":  "Criação de logotipo, flyer A3 e poster para festival de cinema, utilizando cores suaves e tipografia delicada mas diferentes para representar a primavera.",
+        "title":  "Flyer 2",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Affinity",
         "project":  "Cine en Flor",
         "imagePath":  "Portfólio/Design/Affinity/Cine en Flor/Flyer 2.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
-        "id":  3,
-        "title":  "Poster",
-        "description":  "Criação de logotipo, flyer A3 e poster para festival de cinema, utilizando cores suaves e tipografia delicada mas diferentes para representar a primavera.",
+        "id":  2,
+        "title":  "Flyer",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Affinity",
         "project":  "Cine en Flor",
-        "imagePath":  "Portfólio/Design/Affinity/Cine en Flor/Poster.png",
-        "date":  "2026-05-09"
+        "imagePath":  "Portfólio/Design/Affinity/Cine en Flor/Flyer.png",
+        "date":  "2026-05-18"
     },
     {
-        "id":  4,
-        "title":  "Logotipo",
-        "description":  "Criação de logotipo, flyer A3 e poster para festival de cinema, utilizando cores suaves e tipografia delicada mas diferentes para representar a primavera.",
+        "id":  3,
+        "title":  "Logo",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Affinity",
         "project":  "Cine en Flor",
         "imagePath":  "Portfólio/Design/Affinity/Cine en Flor/Logo.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  4,
+        "title":  "Poster",
+        "description":  "",
+        "category":  "Design",
+        "subcategory":  "Affinity",
+        "project":  "Cine en Flor",
+        "imagePath":  "Portfólio/Design/Affinity/Cine en Flor/Poster.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  5,
-        "title":  "Poster Filme 1",
-        "description":  "Recriação de pósteres em vetor simplificado de alguns filmes.",
+        "title":  "UC00505 - SOFIA_MONTEIRO_CARTAZ_FILME 2",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Affinity",
-        "project":  "Pósteres de Filmes",
+        "project":  "Posters de Filmes",
         "imagePath":  "Portfólio/Design/Affinity/Posters de Filmes/UC00505 - SOFIA_MONTEIRO_CARTAZ_FILME 2.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  6,
-        "title":  "Poster Filme 2",
-        "description":  "Recriação de pósteres em vetor simplificado de alguns filmes.",
+        "title":  "UC00505 - SOFIA_MONTEIRO_CARTAZ_FILME 3",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Affinity",
-        "project":  "Pósteres de Filmes",
+        "project":  "Posters de Filmes",
         "imagePath":  "Portfólio/Design/Affinity/Posters de Filmes/UC00505 - SOFIA_MONTEIRO_CARTAZ_FILME 3.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  7,
-        "title":  "Poster Filme 3",
-        "description":  "Recriação de pósteres em vetor simplificado de alguns filmes.",
+        "title":  "UC00505 - SOFIA_MONTEIRO_CARTAZ_FILME",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Affinity",
-        "project":  "Pósteres de Filmes",
+        "project":  "Posters de Filmes",
         "imagePath":  "Portfólio/Design/Affinity/Posters de Filmes/UC00505 - SOFIA_MONTEIRO_CARTAZ_FILME.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  8,
-        "title":  "Cartão de Visita",
-        "description":  "Criação de cartão de visita para livraria beneficiente, utilizando cores e tipografias que remetem a um ambiente calmo e fantasioso.",
+        "title":  "UC00504_SOFIAMONTEIRO_CARTÃOVISITA",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Affinity",
         "project":  "Soo I Wish",
         "imagePath":  "Portfólio/Design/Affinity/Soo I Wish/UC00504_SOFIAMONTEIRO_CARTÃOVISITA.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  9,
-        "title":  "Banner Principal (V2)",
-        "description":  "Criação de banner principal e secundário de apresentação de personagem de RPG textual.",
+        "title":  "Banner Principal 2",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
         "project":  "Bird of Prey",
         "imagePath":  "Portfólio/Design/Canva/Bird of Prey/Banner Principal 2.jpg",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  10,
         "title":  "Banner Principal",
-        "description":  "Criação de banner principal e secundário de apresentação de personagem de RPG textual.",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
         "project":  "Bird of Prey",
         "imagePath":  "Portfólio/Design/Canva/Bird of Prey/Banner Principal.jpg",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  11,
         "title":  "Banner Secundário",
-        "description":  "Criação de banner principal e secundário de apresentação de personagem de RPG textual.",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
         "project":  "Bird of Prey",
         "imagePath":  "Portfólio/Design/Canva/Bird of Prey/Banner Secundário.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  12,
         "title":  "Capa",
-        "description":  "Criação de capa e tracklist de um álbum fictício.",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
         "project":  "Heartbreak",
         "imagePath":  "Portfólio/Design/Canva/Heartbreak/Capa.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  13,
         "title":  "Tracklist",
-        "description":  "Criação de capa e tracklist de um álbum fictício.",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
         "project":  "Heartbreak",
         "imagePath":  "Portfólio/Design/Canva/Heartbreak/Tracklist.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  14,
-        "title":  "Cartões Assembleia (V2)",
+        "title":  "Cartões Assembleia Especial 2",
         "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
         "category":  "Design",
         "subcategory":  "Canva",
         "project":  "Junta de Freguesia de Rio Tinto (25 de Abril)",
         "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/25 de Abril/Cartões Assembleia Especial 2.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  15,
-        "title":  "Cartões Assembleia",
+        "title":  "Cartões Assembleia Especial",
         "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
         "category":  "Design",
         "subcategory":  "Canva",
         "project":  "Junta de Freguesia de Rio Tinto (25 de Abril)",
         "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/25 de Abril/Cartões Assembleia Especial.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  16,
-        "title":  "Certificados 25 de Abril",
+        "title":  "Certificados 25 de abril Assembleia Especial",
         "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
         "category":  "Design",
         "subcategory":  "Canva",
         "project":  "Junta de Freguesia de Rio Tinto (25 de Abril)",
         "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/25 de Abril/Certificados 25 de abril Assembleia Especial.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  17,
@@ -168,380 +168,370 @@ const portfolioData = [
         "subcategory":  "Canva",
         "project":  "Junta de Freguesia de Rio Tinto (25 de Abril)",
         "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/25 de Abril/Convites 25 de Abril.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  18,
-        "title":  "Cortes de Trânsito",
+        "title":  "Cortes de Trânsito 25 de Abril",
         "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
         "category":  "Design",
         "subcategory":  "Canva",
         "project":  "Junta de Freguesia de Rio Tinto (25 de Abril)",
         "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/25 de Abril/Cortes de Trânsito 25 de Abril.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  19,
-        "title":  "Aniversário Universidade",
+        "title":  "Cartaz Encontro Literário 1",
+        "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
+        "category":  "Design",
+        "subcategory":  "Canva",
+        "project":  "Junta de Freguesia de Rio Tinto (Encontro Literário)",
+        "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/Encontro Literário/Cartaz Encontro Literário 1.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  20,
+        "title":  "Cartaz Encontro Literário 2",
+        "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
+        "category":  "Design",
+        "subcategory":  "Canva",
+        "project":  "Junta de Freguesia de Rio Tinto (Encontro Literário)",
+        "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/Encontro Literário/Cartaz Encontro Literário 2.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  21,
+        "title":  "Cartaz Encontro Literário 3",
+        "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
+        "category":  "Design",
+        "subcategory":  "Canva",
+        "project":  "Junta de Freguesia de Rio Tinto (Encontro Literário)",
+        "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/Encontro Literário/Cartaz Encontro Literário 3.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  22,
+        "title":  "Credencial Encontro Literário",
+        "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
+        "category":  "Design",
+        "subcategory":  "Canva",
+        "project":  "Junta de Freguesia de Rio Tinto (Encontro Literário)",
+        "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/Encontro Literário/Credencial Encontro Literário.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  23,
+        "title":  "Estou Aqui 1",
+        "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
+        "category":  "Design",
+        "subcategory":  "Canva",
+        "project":  "Junta de Freguesia de Rio Tinto (Estou Aqui)",
+        "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/Estou Aqui/Estou Aqui 1.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  24,
+        "title":  "Estou Aqui 2",
+        "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
+        "category":  "Design",
+        "subcategory":  "Canva",
+        "project":  "Junta de Freguesia de Rio Tinto (Estou Aqui)",
+        "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/Estou Aqui/Estou Aqui 2.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  25,
+        "title":  "Cartaz Eu e os Outros",
+        "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
+        "category":  "Design",
+        "subcategory":  "Canva",
+        "project":  "Junta de Freguesia de Rio Tinto (Eu e os Outros)",
+        "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/Eu e os Outros/Cartaz Eu e os Outros.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  26,
+        "title":  "Aniversário",
         "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
         "category":  "Design",
         "subcategory":  "Canva",
         "project":  "Junta de Freguesia de Rio Tinto (Universidade Sénior)",
         "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/Universidade Sénior/Aniversário.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
-        "id":  20,
-        "title":  "Convite Aniversário 2026",
+        "id":  27,
+        "title":  "Convite aniversário 2026",
         "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
         "category":  "Design",
         "subcategory":  "Canva",
         "project":  "Junta de Freguesia de Rio Tinto (Universidade Sénior)",
         "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/Universidade Sénior/Convite aniversário 2026.png",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
-        "id":  21,
-        "title":  "Piquenique Universidade",
+        "id":  28,
+        "title":  "Final de Ano Letivo 2",
+        "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
+        "category":  "Design",
+        "subcategory":  "Canva",
+        "project":  "Junta de Freguesia de Rio Tinto (Universidade Sénior)",
+        "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/Universidade Sénior/Final de Ano Letivo 2.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  29,
+        "title":  "Final de Ano Letivo",
+        "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
+        "category":  "Design",
+        "subcategory":  "Canva",
+        "project":  "Junta de Freguesia de Rio Tinto (Universidade Sénior)",
+        "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/Universidade Sénior/Final de Ano Letivo.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  30,
+        "title":  "Piquenique universidade",
         "description":  "Designs criados ao longo de um estágio para publicação e utilização em eventos.",
         "category":  "Design",
         "subcategory":  "Canva",
         "project":  "Junta de Freguesia de Rio Tinto (Universidade Sénior)",
         "imagePath":  "Portfólio/Design/Canva/Junta de Freguesia de Rio Tinto/Universidade Sénior/Piquenique universidade.png",
-        "date":  "2026-05-09"
-    },
-    {
-        "id":  22,
-        "title":  "Banner Principal (V2.2)",
-        "description":  "Criação de icon, banner principal e secundário de apresentação e inspirações de personagem de RPG textual. O banner teve duas versões.",
-        "category":  "Design",
-        "subcategory":  "Canva",
-        "project":  "Memórias do Mar",
-        "imagePath":  "Portfólio/Design/Canva/Memória do Mar/Banner Principal V2.2.jpg",
-        "date":  "2026-05-09"
-    },
-    {
-        "id":  23,
-        "title":  "Banner Principal (V2)",
-        "description":  "Criação de icon, banner principal e secundário de apresentação e inspirações de personagem de RPG textual. O banner teve duas versões.",
-        "category":  "Design",
-        "subcategory":  "Canva",
-        "project":  "Memórias do Mar",
-        "imagePath":  "Portfólio/Design/Canva/Memória do Mar/Banner Principal V2.jpg",
-        "date":  "2026-05-09"
-    },
-    {
-        "id":  24,
-        "title":  "Banner Principal",
-        "description":  "Criação de icon, banner principal e secundário de apresentação e inspirações de personagem de RPG textual. O banner teve duas versões.",
-        "category":  "Design",
-        "subcategory":  "Canva",
-        "project":  "Memórias do Mar",
-        "imagePath":  "Portfólio/Design/Canva/Memória do Mar/Banner Principal.jpg",
-        "date":  "2026-05-09"
-    },
-    {
-        "id":  25,
-        "title":  "Banner Principal (V2.3)",
-        "description":  "Criação de icon, banner principal e secundário de apresentação e inspirações de personagem de RPG textual. O banner teve duas versões.",
-        "category":  "Design",
-        "subcategory":  "Canva",
-        "project":  "Memórias do Mar",
-        "imagePath":  "Portfólio/Design/Canva/Memória do Mar/Banner Princpal V2.3.jpg",
-        "date":  "2026-05-09"
-    },
-    {
-        "id":  26,
-        "title":  "Banner Secundário",
-        "description":  "Criação de icon, banner principal e secundário de apresentação e inspirações de personagem de RPG textual. O banner teve duas versões.",
-        "category":  "Design",
-        "subcategory":  "Canva",
-        "project":  "Memórias do Mar",
-        "imagePath":  "Portfólio/Design/Canva/Memória do Mar/Banner Secundário.png",
-        "date":  "2026-05-09"
-    },
-    {
-        "id":  27,
-        "title":  "Icon",
-        "description":  "Criação de icon, banner principal e secundário de apresentação e inspirações de personagem de RPG textual. O banner teve duas versões.",
-        "category":  "Design",
-        "subcategory":  "Canva",
-        "project":  "Memórias do Mar",
-        "imagePath":  "Portfólio/Design/Canva/Memória do Mar/Icon.png",
-        "date":  "2026-05-09"
-    },
-    {
-        "id":  28,
-        "title":  "Inspirações",
-        "description":  "Criação de icon, banner principal e secundário de apresentação e inspirações de personagem de RPG textual. O banner teve duas versões.",
-        "category":  "Design",
-        "subcategory":  "Canva",
-        "project":  "Memórias do Mar",
-        "imagePath":  "Portfólio/Design/Canva/Memória do Mar/Inspirações da Personagem.png",
-        "date":  "2026-05-09"
-    },
-    {
-        "id":  29,
-        "title":  "Identificação Escolar",
-        "description":  "Projetos avulsos que foram feitos e não utilizados.",
-        "category":  "Design",
-        "subcategory":  "Canva",
-        "project":  "Outros Projetos",
-        "imagePath":  "Portfólio/Design/Canva/Outros Projetos/Cartão de Identificação Escolar.png",
-        "date":  "2026-05-09"
-    },
-    {
-        "id":  30,
-        "title":  "Aniversário",
-        "description":  "Projetos avulsos que foram feitos e não utilizados.",
-        "category":  "Design",
-        "subcategory":  "Canva",
-        "project":  "Outros Projetos",
-        "imagePath":  "Portfólio/Design/Canva/Outros Projetos/Post de Aniversário.jpg",
-        "date":  "2026-05-09"
+        "date":  "2026-05-18"
     },
     {
         "id":  31,
-        "title":  "Banner Principal (V2)",
-        "description":  "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual.",
+        "title":  "Banner Principal V2.2",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
-        "project":  "Poison Ivy",
-        "imagePath":  "Portfólio/Design/Canva/Poison Ivy/Banner Principal 2.jpg",
-        "date":  "2026-05-09"
+        "project":  "Memória do Mar",
+        "imagePath":  "Portfólio/Design/Canva/Memória do Mar/Banner Principal V2.2.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  32,
-        "title":  "Banner Principal",
-        "description":  "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual.",
+        "title":  "Banner Principal V2",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
-        "project":  "Poison Ivy",
-        "imagePath":  "Portfólio/Design/Canva/Poison Ivy/Banner Principal.jpg",
-        "date":  "2026-05-09"
+        "project":  "Memória do Mar",
+        "imagePath":  "Portfólio/Design/Canva/Memória do Mar/Banner Principal V2.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  33,
-        "title":  "Banner Final de Episódio",
-        "description":  "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual e de playlist, e capa de episódio e banner de final de episódio.",
+        "title":  "Banner Principal",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
-        "project":  "Prince of Lies",
-        "imagePath":  "Portfólio/Design/Canva/Prince of Lies/Banner de Final de Episódio.png",
-        "date":  "2026-05-09"
+        "project":  "Memória do Mar",
+        "imagePath":  "Portfólio/Design/Canva/Memória do Mar/Banner Principal.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  34,
-        "title":  "Banner Principal",
-        "description":  "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual e de playlist, e capa de episódio e banner de final de episódio.",
+        "title":  "Banner Princpal V2.3",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
-        "project":  "Prince of Lies",
-        "imagePath":  "Portfólio/Design/Canva/Prince of Lies/Banner Principal.png",
-        "date":  "2026-05-09"
+        "project":  "Memória do Mar",
+        "imagePath":  "Portfólio/Design/Canva/Memória do Mar/Banner Princpal V2.3.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  35,
         "title":  "Banner Secundário",
-        "description":  "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual e de playlist, e capa de episódio e banner de final de episódio.",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
-        "project":  "Prince of Lies",
-        "imagePath":  "Portfólio/Design/Canva/Prince of Lies/Banner Secundário.png",
-        "date":  "2026-05-09"
+        "project":  "Memória do Mar",
+        "imagePath":  "Portfólio/Design/Canva/Memória do Mar/Banner Secundário.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  36,
-        "title":  "Capa de Episódio",
-        "description":  "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual e de playlist, e capa de episódio e banner de final de episódio.",
+        "title":  "Icon",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
-        "project":  "Prince of Lies",
-        "imagePath":  "Portfólio/Design/Canva/Prince of Lies/Capa de Episódio.png",
-        "date":  "2026-05-09"
+        "project":  "Memória do Mar",
+        "imagePath":  "Portfólio/Design/Canva/Memória do Mar/Icon.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  37,
-        "title":  "Icon",
-        "description":  "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual e de playlist, e capa de episódio e banner de final de episódio.",
+        "title":  "Inspirações da Personagem",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
-        "project":  "Prince of Lies",
-        "imagePath":  "Portfólio/Design/Canva/Prince of Lies/Icon.jpg",
-        "date":  "2026-05-09"
+        "project":  "Memória do Mar",
+        "imagePath":  "Portfólio/Design/Canva/Memória do Mar/Inspirações da Personagem.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  38,
-        "title":  "Playlist",
-        "description":  "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual e de playlist, e capa de episódio e banner de final de episódio.",
+        "title":  "Cartão de Identificação Escolar",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
-        "project":  "Prince of Lies",
-        "imagePath":  "Portfólio/Design/Canva/Prince of Lies/Playlist.jpg",
-        "date":  "2026-05-09"
+        "project":  "Outros Projetos",
+        "imagePath":  "Portfólio/Design/Canva/Outros Projetos/Cartão de Identificação Escolar.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  39,
-        "title":  "Capa Aron",
-        "description":  "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual. Igualmente de capa de livro nas cores de dois personagens principais da trama.",
+        "title":  "Post de Aniversário",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
-        "project":  "Tales of Tavros (Livro)",
-        "imagePath":  "Portfólio/Design/Canva/Tales of Tavros/Livro/Capa Versão Aron.png",
-        "date":  "2026-05-09"
+        "project":  "Outros Projetos",
+        "imagePath":  "Portfólio/Design/Canva/Outros Projetos/Post de Aniversário.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  40,
-        "title":  "Capa Aurora",
-        "description":  "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual. Igualmente de capa de livro nas cores de dois personagens principais da trama.",
+        "title":  "Banner Principal 2",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
-        "project":  "Tales of Tavros (Livro)",
-        "imagePath":  "Portfólio/Design/Canva/Tales of Tavros/Livro/Capa Versão Aurora.png",
-        "date":  "2026-05-09"
+        "project":  "Poison Ivy",
+        "imagePath":  "Portfólio/Design/Canva/Poison Ivy/Banner Principal 2.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  41,
         "title":  "Banner Principal",
-        "description":  "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual. Igualmente de capa de livro nas cores de dois personagens principais da trama.",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
-        "project":  "Tales of Tavros (Personagem)",
-        "imagePath":  "Portfólio/Design/Canva/Tales of Tavros/Personagem/Banner Principal.jpg",
-        "date":  "2026-05-09"
+        "project":  "Poison Ivy",
+        "imagePath":  "Portfólio/Design/Canva/Poison Ivy/Banner Principal.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  42,
-        "title":  "Banner Secundário",
-        "description":  "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual. Igualmente de capa de livro nas cores de dois personagens principais da trama.",
+        "title":  "Banner de Final de Episódio",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
-        "project":  "Tales of Tavros (Personagem)",
-        "imagePath":  "Portfólio/Design/Canva/Tales of Tavros/Personagem/Banner Secundário.png",
-        "date":  "2026-05-09"
+        "project":  "Prince of Lies",
+        "imagePath":  "Portfólio/Design/Canva/Prince of Lies/Banner de Final de Episódio.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  43,
-        "title":  "Icon",
-        "description":  "Criação de icon, banner principal e secundário de apresentação de personagem de RPG textual. Igualmente de capa de livro nas cores de dois personagens principais da trama.",
+        "title":  "Banner Principal",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Canva",
-        "project":  "Tales of Tavros (Personagem)",
-        "imagePath":  "Portfólio/Design/Canva/Tales of Tavros/Personagem/Icon.png",
-        "date":  "2026-05-09"
+        "project":  "Prince of Lies",
+        "imagePath":  "Portfólio/Design/Canva/Prince of Lies/Banner Principal.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  44,
-        "title":  "Cartaz Dia do Livro",
-        "description":  "Recriação de cartaz do Dia do Livro de 2015.",
+        "title":  "Banner Secundário",
+        "description":  "",
         "category":  "Design",
-        "subcategory":  "Figma",
-        "project":  "Cartaz de Dia Comemorativo",
-        "imagePath":  "Portfólio/Design/Figma/Cartaz de Data Comemorativa/A4 - 3.png",
-        "date":  "2026-05-09"
+        "subcategory":  "Canva",
+        "project":  "Prince of Lies",
+        "imagePath":  "Portfólio/Design/Canva/Prince of Lies/Banner Secundário.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  45,
-        "title":  "Cartaz Elevação",
-        "description":  "Criação de cartaz com cronograma e convite para a elevação a cidade de Rio Tinto.",
+        "title":  "Capa de Episódio",
+        "description":  "",
         "category":  "Design",
-        "subcategory":  "Figma",
-        "project":  "Elevação a Cidade",
-        "imagePath":  "Portfólio/Design/Figma/Elevação a Cidade/Cartaz.png",
-        "date":  "2026-05-09"
+        "subcategory":  "Canva",
+        "project":  "Prince of Lies",
+        "imagePath":  "Portfólio/Design/Canva/Prince of Lies/Capa de Episódio.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  46,
-        "title":  "Convite Elevação",
-        "description":  "Criação de cartaz com cronograma e convite para a elevação a cidade de Rio Tinto.",
+        "title":  "Icon",
+        "description":  "",
         "category":  "Design",
-        "subcategory":  "Figma",
-        "project":  "Elevação a Cidade",
-        "imagePath":  "Portfólio/Design/Figma/Elevação a Cidade/Convite.png?v=2",
-        "date":  "2026-05-09"
+        "subcategory":  "Canva",
+        "project":  "Prince of Lies",
+        "imagePath":  "Portfólio/Design/Canva/Prince of Lies/Icon.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  47,
-        "title":  "Capa National Geographic",
-        "description":  "Criação de capa de revista com o tema \"Espaço\".",
+        "title":  "Playlist",
+        "description":  "",
         "category":  "Design",
-        "subcategory":  "Figma",
-        "project":  "National Geographic",
-        "imagePath":  "Portfólio/Design/Figma/National Geographic/cartaz national.png",
-        "date":  "2026-05-09"
+        "subcategory":  "Canva",
+        "project":  "Prince of Lies",
+        "imagePath":  "Portfólio/Design/Canva/Prince of Lies/Playlist.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  48,
-        "title":  "Banner Principal V2",
-        "description":  "Criação de identidade visual para joelheria ficticia para duas versões de uma personagem de RPG textual juntamente com icon, banner e post ilustrativo da utilização da identidade",
+        "title":  "Capa Versão Aron",
+        "description":  "",
         "category":  "Design",
-        "subcategory":  "Figma",
-        "project":  "Bloody Ruby",
-        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Banner principal V2.jpg",
-        "date":  "2026-05-17"
+        "subcategory":  "Canva",
+        "project":  "Tales of Tavros",
+        "imagePath":  "Portfólio/Design/Canva/Tales of Tavros/Livro/Capa Versão Aron.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  49,
-        "title":  "Banner Principal",
-        "description":  "Criação de identidade visual para joelheria ficticia para duas versões de uma personagem de RPG textual juntamente com icon, banner e post ilustrativo da utilização da identidade",
+        "title":  "Capa Versão Aurora",
+        "description":  "",
         "category":  "Design",
-        "subcategory":  "Figma",
-        "project":  "Bloody Ruby",
-        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Banner principal.jpg",
-        "date":  "2026-05-17"
+        "subcategory":  "Canva",
+        "project":  "Tales of Tavros",
+        "imagePath":  "Portfólio/Design/Canva/Tales of Tavros/Livro/Capa Versão Aurora.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  50,
-        "title":  "Bloody Ruby",
-        "description":  "Criação de identidade visual para joelheria ficticia para duas versões de uma personagem de RPG textual juntamente com icon, banner e post ilustrativo da utilização da identidade",
+        "title":  "Banner Principal",
+        "description":  "",
         "category":  "Design",
-        "subcategory":  "Figma",
-        "project":  "Bloody Ruby",
-        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Bloody Ruby.png",
-        "date":  "2026-05-17"
+        "subcategory":  "Canva",
+        "project":  "Tales of Tavros",
+        "imagePath":  "Portfólio/Design/Canva/Tales of Tavros/Personagem/Banner Principal.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  51,
-        "title":  "Convite V2",
-        "description":  "Criação de identidade visual para joelheria ficticia para duas versões de uma personagem de RPG textual juntamente com icon, banner e post ilustrativo da utilização da identidade",
+        "title":  "Banner Secundário",
+        "description":  "",
         "category":  "Design",
-        "subcategory":  "Figma",
-        "project":  "Bloody Ruby",
-        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Convite V2.png",
-        "date":  "2026-05-17"
+        "subcategory":  "Canva",
+        "project":  "Tales of Tavros",
+        "imagePath":  "Portfólio/Design/Canva/Tales of Tavros/Personagem/Banner Secundário.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  52,
-        "title":  "Convite",
-        "description":  "Criação de identidade visual para joelheria ficticia para duas versões de uma personagem de RPG textual juntamente com icon, banner e post ilustrativo da utilização da identidade",
+        "title":  "Icon",
+        "description":  "",
         "category":  "Design",
-        "subcategory":  "Figma",
-        "project":  "Bloody Ruby",
-        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Convite.jpg",
-        "date":  "2026-05-17"
+        "subcategory":  "Canva",
+        "project":  "Tales of Tavros",
+        "imagePath":  "Portfólio/Design/Canva/Tales of Tavros/Personagem/Icon.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  53,
-        "title":  "Icon",
-        "description":  "Criação de identidade visual para joelheria ficticia para duas versões de uma personagem de RPG textual juntamente com icon, banner e post ilustrativo da utilização da identidade",
+        "title":  "A4 - 3",
+        "description":  "",
         "category":  "Design",
         "subcategory":  "Figma",
-        "project":  "Bloody Ruby",
-        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Icon.jpg",
-        "date":  "2026-05-17"
+        "project":  "Cartaz de Data Comemorativa",
+        "imagePath":  "Portfólio/Design/Figma/Cartaz de Data Comemorativa/A4 - 3.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  54,
-        "title":  "Combo Da Sorte",
-        "description":  "Cartazes inspirados em excertos de músicas",
-        "category":  "Design",
-        "subcategory":  "Figma",
-        "project":  "Cartazes musicais",
-        "imagePath":  "Portfólio/Design/Figma/Cartazes musicais/Combo da Sorte.png",
-        "date":  "2026-05-17"
-    },
-    {
-        "id":  55,
         "title":  "A Rua",
         "description":  "Cartazes inspirados em excertos de músicas",
         "category":  "Design",
@@ -551,135 +541,154 @@ const portfolioData = [
         "date":  "2026-05-18"
     },
     {
-        "id":  56,
-        "title":  "Sooh Wish",
-        "description":  "Identidade visual inicial da designer usada como base para o portfólio",
+        "id":  55,
+        "title":  "Combo da Sorte",
+        "description":  "Cartazes inspirados em excertos de músicas",
         "category":  "Design",
         "subcategory":  "Figma",
-        "project":  "Sooh Wish",
-        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Sooh Wish/Sooh Wish.png?v=3",
-        "date":  "2026-05-17"
+        "project":  "Cartazes musicais",
+        "imagePath":  "Portfólio/Design/Figma/Cartazes musicais/Combo da Sorte.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  56,
+        "title":  "Morte",
+        "description":  "Cartazes inspirados em excertos de músicas",
+        "category":  "Design",
+        "subcategory":  "Figma",
+        "project":  "Cartazes musicais",
+        "imagePath":  "Portfólio/Design/Figma/Cartazes musicais/Morte.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  57,
-        "title":  "Capa Nebel (V1)",
-        "description":  "Criação de ilustração para cartaz de animação.",
-        "category":  "Ilustração",
-        "subcategory":  "Affinity",
-        "project":  "Nebel",
-        "imagePath":  "Portfólio/Ilustração/Affinity/Nebel/Capa Nebel V1.png",
-        "date":  "2026-05-09"
+        "title":  "Cartaz",
+        "description":  "",
+        "category":  "Design",
+        "subcategory":  "Figma",
+        "project":  "Elevação a Cidade",
+        "imagePath":  "Portfólio/Design/Figma/Elevação a Cidade/Cartaz.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  58,
-        "title":  "Capa Nebel (V2)",
-        "description":  "Criação de ilustração para cartaz de animação.",
-        "category":  "Ilustração",
-        "subcategory":  "Affinity",
-        "project":  "Nebel",
-        "imagePath":  "Portfólio/Ilustração/Affinity/Nebel/Capa Nebel V2.png",
-        "date":  "2026-05-09"
+        "title":  "Convite",
+        "description":  "",
+        "category":  "Design",
+        "subcategory":  "Figma",
+        "project":  "Elevação a Cidade",
+        "imagePath":  "Portfólio/Design/Figma/Elevação a Cidade/Convite.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  59,
-        "title":  "Identificação WC",
-        "description":  "Projetos avulsos que foram feitos e não utilizados em designs.",
-        "category":  "Ilustração",
-        "subcategory":  "Affinity",
-        "project":  "Outros",
-        "imagePath":  "Portfólio/Ilustração/Affinity/Outros/Identificação WC.png",
-        "date":  "2026-05-09"
+        "title":  "Banner principal V2",
+        "description":  "Criação de identidade visual completa, incluindo icon, banner principal e secundário.",
+        "category":  "Design",
+        "subcategory":  "Figma",
+        "project":  "Identidade Visual - Bloody Ruby",
+        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Banner principal V2.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  60,
-        "title":  "Ilustração Icon",
-        "description":  "Projetos avulsos que foram feitos e não utilizados em designs.",
-        "category":  "Ilustração",
-        "subcategory":  "Affinity",
-        "project":  "Outros",
-        "imagePath":  "Portfólio/Ilustração/Affinity/Outros/Ilustração Icon.png",
-        "date":  "2026-05-09"
+        "title":  "Banner principal",
+        "description":  "Criação de identidade visual completa, incluindo icon, banner principal e secundário.",
+        "category":  "Design",
+        "subcategory":  "Figma",
+        "project":  "Identidade Visual - Bloody Ruby",
+        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Banner principal.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  61,
-        "title":  "Aurora",
-        "description":  "Ilustração digital criada no Adobe Illustrator.",
-        "category":  "Ilustração",
-        "subcategory":  "Ilustrator",
-        "imagePath":  "Portfólio/Ilustração/Ilustrator/Aurora.jpg",
-        "date":  "2026-04-13"
+        "title":  "Bloody Ruby",
+        "description":  "Criação de identidade visual completa, incluindo icon, banner principal e secundário.",
+        "category":  "Design",
+        "subcategory":  "Figma",
+        "project":  "Identidade Visual - Bloody Ruby",
+        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Bloody Ruby.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  62,
-        "title":  "Eurus e Erik",
-        "description":  "Ilustração digital criada no Adobe Illustrator.",
-        "category":  "Ilustração",
-        "subcategory":  "Ilustrator",
-        "imagePath":  "Portfólio/Ilustração/Ilustrator/eurus e erik.jpg",
-        "date":  "2026-04-14"
+        "title":  "Convite V2",
+        "description":  "Criação de identidade visual completa, incluindo icon, banner principal e secundário.",
+        "category":  "Design",
+        "subcategory":  "Figma",
+        "project":  "Identidade Visual - Bloody Ruby",
+        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Convite V2.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  63,
-        "title":  "Eurus",
-        "description":  "Ilustração digital criada no Adobe Illustrator.",
-        "category":  "Ilustração",
-        "subcategory":  "Ilustrator",
-        "imagePath":  "Portfólio/Ilustração/Ilustrator/eurus.jpg",
-        "date":  "2026-05-07"
+        "title":  "Convite",
+        "description":  "Criação de identidade visual completa, incluindo icon, banner principal e secundário.",
+        "category":  "Design",
+        "subcategory":  "Figma",
+        "project":  "Identidade Visual - Bloody Ruby",
+        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Convite.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  64,
-        "title":  "Bilhete de Viagem",
-        "description":  "Ilustração digital de um bilhete de viagem criada no Figma.",
-        "category":  "Ilustração",
+        "title":  "Icon",
+        "description":  "Criação de identidade visual completa, incluindo icon, banner principal e secundário.",
+        "category":  "Design",
         "subcategory":  "Figma",
-        "imagePath":  "Portfólio/Ilustração/Figma/Bilhete de Viagem.png",
-        "date":  "2026-05-17"
+        "project":  "Identidade Visual - Bloody Ruby",
+        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Bloody Ruby/Icon.jpg",
+        "date":  "2026-05-18"
     },
     {
         "id":  65,
-        "title":  "Passaporte",
-        "description":  "Ilustração digital de um passaporte criada no Figma.",
-        "category":  "Ilustração",
+        "title":  "Banner Principal",
+        "description":  "Criação de identidade visual completa, incluindo icon, banner principal e secundário.",
+        "category":  "Design",
         "subcategory":  "Figma",
-        "imagePath":  "Portfólio/Ilustração/Figma/Passaporte.png",
-        "date":  "2026-05-17"
+        "project":  "Identidade Visual - First Moon Blood",
+        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/First Moon Blood/Banner Principal.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  66,
-        "title":  "",
-        "description":  "",
-        "category":  "Fotografia",
-        "subcategory":  "Animais",
-        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-02-25_21-53-03.jpg",
-        "date":  "2026-05-06"
+        "title":  "Banner Secundário",
+        "description":  "Criação de identidade visual completa, incluindo icon, banner principal e secundário.",
+        "category":  "Design",
+        "subcategory":  "Figma",
+        "project":  "Identidade Visual - First Moon Blood",
+        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/First Moon Blood/Banner Secundário.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  67,
-        "title":  "",
-        "description":  "",
-        "category":  "Fotografia",
-        "subcategory":  "Animais",
-        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-02-28_21-36-01.jpg",
-        "date":  "2026-05-06"
+        "title":  "Icon",
+        "description":  "Criação de identidade visual completa, incluindo icon, banner principal e secundário.",
+        "category":  "Design",
+        "subcategory":  "Figma",
+        "project":  "Identidade Visual - First Moon Blood",
+        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/First Moon Blood/Icon.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  68,
-        "title":  "",
-        "description":  "",
-        "category":  "Fotografia",
-        "subcategory":  "Animais",
-        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-02-28_21-49-08.jpg",
-        "date":  "2026-05-06"
+        "title":  "Sooh Wish",
+        "description":  "Criação de identidade visual completa, incluindo icon, banner principal e secundário.",
+        "category":  "Design",
+        "subcategory":  "Figma",
+        "project":  "Identidade Visual - Sooh Wish",
+        "imagePath":  "Portfólio/Design/Figma/Identidade Visual/Sooh Wish/Sooh Wish.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  69,
-        "title":  "",
+        "title":  "cartaz national",
         "description":  "",
-        "category":  "Fotografia",
-        "subcategory":  "Animais",
-        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-03-09_20-21-29.jpg",
-        "date":  "2026-05-06"
+        "category":  "Design",
+        "subcategory":  "Figma",
+        "project":  "National Geographic",
+        "imagePath":  "Portfólio/Design/Figma/National Geographic/cartaz national.png",
+        "date":  "2026-05-18"
     },
     {
         "id":  70,
@@ -687,8 +696,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Animais",
-        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-03-21_18-42-33.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-02-25_21-53-03.jpg",
+        "date":  "2026-02-25"
     },
     {
         "id":  71,
@@ -696,8 +706,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Animais",
-        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-04-27_15-28-33.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-02-28_21-36-01.jpg",
+        "date":  "2026-02-28"
     },
     {
         "id":  72,
@@ -705,8 +716,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Animais",
-        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-04-27_16-00-19.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-02-28_21-49-08.jpg",
+        "date":  "2026-02-28"
     },
     {
         "id":  73,
@@ -714,8 +726,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Animais",
-        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-04-27_16-16-37.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-03-09_20-21-29.jpg",
+        "date":  "2026-03-09"
     },
     {
         "id":  74,
@@ -723,44 +736,49 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Animais",
-        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-04-27_16-25-13.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-03-21_18-42-33.jpg",
+        "date":  "2026-03-21"
     },
     {
         "id":  75,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-02-28_21-37-16.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Animais",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-04-27_15-28-33.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  76,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-03-23_22-12-09.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Animais",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-04-27_16-00-19.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  77,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-16_14-22-36.jpg",
-        "date":  "2026-04-16"
+        "subcategory":  "Animais",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-04-27_16-16-37.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  78,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-05-21.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Animais",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Animais/photo_2026-04-27_16-25-13.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  79,
@@ -768,8 +786,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-11-49.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-02-28_21-37-16.jpg",
+        "date":  "2026-02-28"
     },
     {
         "id":  80,
@@ -777,8 +796,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-19-56.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-03-23_22-12-09.jpg",
+        "date":  "2026-03-23"
     },
     {
         "id":  81,
@@ -786,8 +806,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-22-21.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-16_14-22-36.jpg",
+        "date":  "2026-04-16"
     },
     {
         "id":  82,
@@ -795,8 +816,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-23-36.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-05-21.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  83,
@@ -804,8 +826,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-24-08.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-11-49.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  84,
@@ -813,8 +836,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-24-35.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-19-56.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  85,
@@ -822,8 +846,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-24-54.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-22-21.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  86,
@@ -831,8 +856,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-31-07.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-23-36.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  87,
@@ -840,8 +866,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-31-40.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-24-08.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  88,
@@ -849,8 +876,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_16-06-17.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-24-35.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  89,
@@ -858,8 +886,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_16-12-50.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-24-54.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  90,
@@ -867,8 +896,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_16-19-05.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-31-07.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  91,
@@ -876,8 +906,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-05-17_14-32-58.jpg",
-        "date":  "2026-05-17"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_15-31-40.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  92,
@@ -885,8 +916,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-05-17_14-33-33.jpg",
-        "date":  "2026-05-17"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_16-06-17.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  93,
@@ -894,8 +926,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-05-17_14-35-06.jpg",
-        "date":  "2026-05-17"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_16-12-50.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  94,
@@ -903,8 +936,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-05-17_14-35-46.jpg",
-        "date":  "2026-05-17"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-04-27_16-19-05.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  95,
@@ -912,7 +946,8 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Detalhes",
-        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-05-17_14-42-37.jpg",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-05-17_14-32-58.jpg",
         "date":  "2026-05-17"
     },
     {
@@ -920,36 +955,40 @@ const portfolioData = [
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-02-25_15-42-32.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Detalhes",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-05-17_14-33-33.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  97,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-02-28_22-04-31.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Detalhes",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-05-17_14-35-06.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  98,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-02-28_22-07-28.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Detalhes",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-05-17_14-35-46.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  99,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-02-28_22-12-53.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Detalhes",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Detalhes/photo_2026-05-17_14-42-37.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  100,
@@ -957,8 +996,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-04_14-20-12.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-02-25_15-42-32.jpg",
+        "date":  "2026-02-25"
     },
     {
         "id":  101,
@@ -966,8 +1006,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-04_14-21-19.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-02-28_22-04-31.jpg",
+        "date":  "2026-02-28"
     },
     {
         "id":  102,
@@ -975,8 +1016,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-04_17-44-01.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-02-28_22-07-28.jpg",
+        "date":  "2026-02-28"
     },
     {
         "id":  103,
@@ -984,8 +1026,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-04_17-45-16.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-02-28_22-12-53.jpg",
+        "date":  "2026-02-28"
     },
     {
         "id":  104,
@@ -993,8 +1036,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-09_14-56-44.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-04_14-20-12.jpg",
+        "date":  "2026-03-04"
     },
     {
         "id":  105,
@@ -1002,8 +1046,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-09_15-36-19.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-04_14-21-19.jpg",
+        "date":  "2026-03-04"
     },
     {
         "id":  106,
@@ -1011,8 +1056,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-09_20-22-15.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-04_17-44-01.jpg",
+        "date":  "2026-03-04"
     },
     {
         "id":  107,
@@ -1020,8 +1066,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-23_21-34-56.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-04_17-45-16.jpg",
+        "date":  "2026-03-04"
     },
     {
         "id":  108,
@@ -1029,8 +1076,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-23_22-00-10.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-09_14-56-44.jpg",
+        "date":  "2026-03-09"
     },
     {
         "id":  109,
@@ -1038,8 +1086,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-23_22-09-47.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-09_15-36-19.jpg",
+        "date":  "2026-03-09"
     },
     {
         "id":  110,
@@ -1047,8 +1096,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-23_22-11-48.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-09_20-22-15.jpg",
+        "date":  "2026-03-09"
     },
     {
         "id":  111,
@@ -1056,8 +1106,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_15-09-38.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-23_21-34-56.jpg",
+        "date":  "2026-03-23"
     },
     {
         "id":  112,
@@ -1065,8 +1116,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_15-23-07.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-23_22-00-10.jpg",
+        "date":  "2026-03-23"
     },
     {
         "id":  113,
@@ -1074,8 +1126,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_16-04-36.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-23_22-09-47.jpg",
+        "date":  "2026-03-23"
     },
     {
         "id":  114,
@@ -1083,8 +1136,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_16-07-08.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-03-23_22-11-48.jpg",
+        "date":  "2026-03-23"
     },
     {
         "id":  115,
@@ -1092,8 +1146,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_16-15-04.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_15-09-38.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  116,
@@ -1101,8 +1156,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_16-16-19.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_15-23-07.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  117,
@@ -1110,8 +1166,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_16-17-06.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_16-04-36.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  118,
@@ -1119,71 +1176,79 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Natureza",
-        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_16-22-30.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_16-07-08.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  119,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-03-09_14-39-31.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Natureza",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_16-15-04.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  120,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-03-21_18-43-06.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Natureza",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_16-16-19.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  121,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-03-21_18-43-44.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Natureza",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_16-17-06.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  122,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_15-06-27.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Natureza",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-04-27_16-22-30.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  123,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_15-17-35.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Natureza",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-05-17_14-35-28.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  124,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_16-01-51.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Natureza",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-05-17_14-36-26.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  125,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_16-03-43.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Natureza",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Natureza/photo_2026-05-17_14-38-08.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  126,
@@ -1191,8 +1256,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_16-04-01.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-03-09_14-39-31.jpg",
+        "date":  "2026-03-09"
     },
     {
         "id":  127,
@@ -1200,8 +1266,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_16-04-21.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-03-21_18-43-06.jpg",
+        "date":  "2026-03-21"
     },
     {
         "id":  128,
@@ -1209,8 +1276,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_16-12-33.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-03-21_18-43-44.jpg",
+        "date":  "2026-03-21"
     },
     {
         "id":  129,
@@ -1218,8 +1286,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_16-13-42.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_15-06-27.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  130,
@@ -1227,8 +1296,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_16-17-59.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_15-17-35.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  131,
@@ -1236,8 +1306,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_12-24-23.jpg",
-        "date":  "2026-05-17"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_16-01-51.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  132,
@@ -1245,8 +1316,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_12-24-44.jpg",
-        "date":  "2026-05-17"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_16-03-43.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  133,
@@ -1254,8 +1326,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_12-25-09.jpg",
-        "date":  "2026-05-17"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_16-04-01.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  134,
@@ -1263,8 +1336,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_12-25-58.jpg",
-        "date":  "2026-05-17"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_16-04-21.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  135,
@@ -1272,8 +1346,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_12-28-16.jpg",
-        "date":  "2026-05-17"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_16-12-33.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  136,
@@ -1281,8 +1356,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_12-34-23.jpg",
-        "date":  "2026-05-17"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_16-13-42.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  137,
@@ -1290,8 +1366,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-28-15.jpg",
-        "date":  "2026-05-17"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-04-27_16-17-59.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  138,
@@ -1299,7 +1376,8 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-29-02.jpg",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_12-24-23.jpg",
         "date":  "2026-05-17"
     },
     {
@@ -1308,7 +1386,8 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-29-23.jpg",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_12-24-44.jpg",
         "date":  "2026-05-17"
     },
     {
@@ -1317,7 +1396,8 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-30-10.jpg",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_12-25-09.jpg",
         "date":  "2026-05-17"
     },
     {
@@ -1326,7 +1406,8 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-33-49.jpg",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_12-25-58.jpg",
         "date":  "2026-05-17"
     },
     {
@@ -1335,7 +1416,8 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-35-21.jpg",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_12-28-16.jpg",
         "date":  "2026-05-17"
     },
     {
@@ -1344,7 +1426,8 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-36-47.jpg",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_12-34-23.jpg",
         "date":  "2026-05-17"
     },
     {
@@ -1353,7 +1436,8 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-41-19.jpg",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-28-15.jpg",
         "date":  "2026-05-17"
     },
     {
@@ -1362,7 +1446,8 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-43-08.jpg",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-29-02.jpg",
         "date":  "2026-05-17"
     },
     {
@@ -1371,7 +1456,8 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-49-30.jpg",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-29-23.jpg",
         "date":  "2026-05-17"
     },
     {
@@ -1380,7 +1466,8 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_14-07-52.jpg",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-30-10.jpg",
         "date":  "2026-05-17"
     },
     {
@@ -1389,7 +1476,8 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_14-32-39.jpg",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-33-49.jpg",
         "date":  "2026-05-17"
     },
     {
@@ -1398,7 +1486,8 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_14-38-24.jpg",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-35-21.jpg",
         "date":  "2026-05-17"
     },
     {
@@ -1407,7 +1496,8 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Paisagens",
-        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_14-39-25.jpg",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-36-47.jpg",
         "date":  "2026-05-17"
     },
     {
@@ -1415,63 +1505,70 @@ const portfolioData = [
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-02-28_21-38-41.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Paisagens",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-41-19.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  152,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-03-04_17-46-07.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Paisagens",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-43-08.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  153,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-03-09_14-59-36.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Paisagens",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_13-49-30.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  154,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-03-23_21-14-45.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Paisagens",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_14-07-52.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  155,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-25-54.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Paisagens",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_14-32-39.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  156,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-27-07.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Paisagens",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_14-38-24.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  157,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-30-48.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Paisagens",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Paisagens/photo_2026-05-17_14-39-25.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  158,
@@ -1479,8 +1576,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-50-05.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-02-28_21-38-41.jpg",
+        "date":  "2026-02-28"
     },
     {
         "id":  159,
@@ -1488,8 +1586,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-56-23.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-03-04_17-46-07.jpg",
+        "date":  "2026-03-04"
     },
     {
         "id":  160,
@@ -1497,8 +1596,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-57-08.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-03-09_14-59-36.jpg",
+        "date":  "2026-03-09"
     },
     {
         "id":  161,
@@ -1506,8 +1606,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-57-37.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-03-23_21-14-45.jpg",
+        "date":  "2026-03-23"
     },
     {
         "id":  162,
@@ -1515,8 +1616,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_16-00-01.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-25-54.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  163,
@@ -1524,8 +1626,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_16-06-49.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-27-07.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  164,
@@ -1533,8 +1636,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_16-11-20.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-30-48.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  165,
@@ -1542,8 +1646,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_16-23-17.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-50-05.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  166,
@@ -1551,71 +1656,79 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Pessoas",
-        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-05-17_13-38-56.jpg",
-        "date":  "2026-05-17"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-56-23.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  167,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_21-48-35.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Pessoas",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-57-08.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  168,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_21-50-35.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Pessoas",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_15-57-37.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  169,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_22-03-20.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Pessoas",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_16-00-01.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  170,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_22-14-07.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Pessoas",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_16-06-49.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  171,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_22-16-15.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Pessoas",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_16-11-20.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  172,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_22-22-24.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Pessoas",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-04-27_16-23-17.jpg",
+        "date":  "2026-04-27"
     },
     {
         "id":  173,
         "title":  "",
         "description":  "",
         "category":  "Fotografia",
-        "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-04-27_15-10-03.jpg",
-        "date":  "2026-05-06"
+        "subcategory":  "Pessoas",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Pessoas/photo_2026-05-17_13-38-56.jpg",
+        "date":  "2026-05-17"
     },
     {
         "id":  174,
@@ -1623,8 +1736,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-04-27_15-12-58.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_21-48-35.jpg",
+        "date":  "2026-02-28"
     },
     {
         "id":  175,
@@ -1632,8 +1746,9 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-04-27_15-18-43.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_21-50-35.jpg",
+        "date":  "2026-02-28"
     },
     {
         "id":  176,
@@ -1641,10 +1756,170 @@ const portfolioData = [
         "description":  "",
         "category":  "Fotografia",
         "subcategory":  "Viagens",
-        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-04-27_15-19-04.jpg",
-        "date":  "2026-05-06"
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_22-03-20.jpg",
+        "date":  "2026-02-28"
     },
-
+    {
+        "id":  177,
+        "title":  "",
+        "description":  "",
+        "category":  "Fotografia",
+        "subcategory":  "Viagens",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_22-14-07.jpg",
+        "date":  "2026-02-28"
+    },
+    {
+        "id":  178,
+        "title":  "",
+        "description":  "",
+        "category":  "Fotografia",
+        "subcategory":  "Viagens",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_22-16-15.jpg",
+        "date":  "2026-02-28"
+    },
+    {
+        "id":  179,
+        "title":  "",
+        "description":  "",
+        "category":  "Fotografia",
+        "subcategory":  "Viagens",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-02-28_22-22-24.jpg",
+        "date":  "2026-02-28"
+    },
+    {
+        "id":  180,
+        "title":  "",
+        "description":  "",
+        "category":  "Fotografia",
+        "subcategory":  "Viagens",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-04-27_15-10-03.jpg",
+        "date":  "2026-04-27"
+    },
+    {
+        "id":  181,
+        "title":  "",
+        "description":  "",
+        "category":  "Fotografia",
+        "subcategory":  "Viagens",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-04-27_15-12-58.jpg",
+        "date":  "2026-04-27"
+    },
+    {
+        "id":  182,
+        "title":  "",
+        "description":  "",
+        "category":  "Fotografia",
+        "subcategory":  "Viagens",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-04-27_15-18-43.jpg",
+        "date":  "2026-04-27"
+    },
+    {
+        "id":  183,
+        "title":  "",
+        "description":  "",
+        "category":  "Fotografia",
+        "subcategory":  "Viagens",
+        "project":  "Geral",
+        "imagePath":  "Portfólio/Fotografia/Viagens/photo_2026-04-27_15-19-04.jpg",
+        "date":  "2026-04-27"
+    },
+    {
+        "id":  184,
+        "title":  "Capa Nebel V1",
+        "description":  "",
+        "category":  "Ilustração",
+        "subcategory":  "Affinity",
+        "project":  "Nebel",
+        "imagePath":  "Portfólio/Ilustração/Affinity/Nebel/Capa Nebel V1.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  185,
+        "title":  "Capa Nebel V2",
+        "description":  "",
+        "category":  "Ilustração",
+        "subcategory":  "Affinity",
+        "project":  "Nebel",
+        "imagePath":  "Portfólio/Ilustração/Affinity/Nebel/Capa Nebel V2.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  186,
+        "title":  "Identificação WC",
+        "description":  "",
+        "category":  "Ilustração",
+        "subcategory":  "Affinity",
+        "project":  "Outros",
+        "imagePath":  "Portfólio/Ilustração/Affinity/Outros/Identificação WC.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  187,
+        "title":  "Ilustração Icon",
+        "description":  "",
+        "category":  "Ilustração",
+        "subcategory":  "Affinity",
+        "project":  "Outros",
+        "imagePath":  "Portfólio/Ilustração/Affinity/Outros/Ilustração Icon.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  188,
+        "title":  "Bilhete de Viagem",
+        "description":  "",
+        "category":  "Ilustração",
+        "subcategory":  "Figma",
+        "project":  "Outros",
+        "imagePath":  "Portfólio/Ilustração/Figma/Bilhete de Viagem.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  189,
+        "title":  "Passaporte",
+        "description":  "",
+        "category":  "Ilustração",
+        "subcategory":  "Figma",
+        "project":  "Outros",
+        "imagePath":  "Portfólio/Ilustração/Figma/Passaporte.png",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  190,
+        "title":  "Aurora",
+        "description":  "",
+        "category":  "Ilustração",
+        "subcategory":  "Ilustrator",
+        "project":  "Outros",
+        "imagePath":  "Portfólio/Ilustração/Ilustrator/Aurora.jpg",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  191,
+        "title":  "Eurus e Erik",
+        "description":  "",
+        "category":  "Ilustração",
+        "subcategory":  "Ilustrator",
+        "project":  "Outros",
+        "imagePath":  "Portfólio/Ilustração/Ilustrator/Eurus e Erik.jpg",
+        "date":  "2026-05-18"
+    },
+    {
+        "id":  192,
+        "title":  "Eurus",
+        "description":  "",
+        "category":  "Ilustração",
+        "subcategory":  "Ilustrator",
+        "project":  "Outros",
+        "imagePath":  "Portfólio/Ilustração/Ilustrator/Eurus.jpg",
+        "date":  "2026-05-18"
+    }
 ];
 
 function getPortfolioItems() { return portfolioData; }
