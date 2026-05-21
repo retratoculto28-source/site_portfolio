@@ -1,4 +1,25 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // ─────────────────────────────────────────────────────────
+    // Dark Mode Toggle
+    // ─────────────────────────────────────────────────────────
+    const themeToggleBtn = document.getElementById('theme-toggle');
+
+    function applyTheme(theme) {
+        if (theme === 'dark') {
+            document.documentElement.classList.add('dark-mode');
+        } else {
+            document.documentElement.classList.remove('dark-mode');
+        }
+    }
+
+    if (themeToggleBtn) {
+        themeToggleBtn.addEventListener('click', () => {
+            const isDark = document.documentElement.classList.toggle('dark-mode');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        });
+    }
+
+
     // Spotify Slide-out toggle
     const spotifyBtn = document.getElementById('spotify-btn');
     const spotifyPanel = document.getElementById('spotify-panel');

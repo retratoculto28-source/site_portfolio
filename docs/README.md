@@ -24,14 +24,22 @@ O projeto encontra-se **altamente organizado por tipo de ficheiro**, mantendo a 
 *   **Organização de Pastas Limpa**: Ficheiros organizados de acordo com o seu tipo (`html/`, `images/`, `docs/`, `css/`, `js/`), mantendo o repositório estruturado e profissional.
 *   **Identidade Visual Premium**: Branding exclusivo de **A Arte de Sofia**, com tipografia editorial elegante, um **favicon transparente** em `images/` e uma assinatura visual desenhada à mão na página inicial.
 *   **Estética Scrapbook Minimalista**: Design focado em texturas táteis de papel e inclinações orgânicas de fotografias. A interface foi polida e higienizada visualmente, focando exclusivamente na harmonia tipográfica e composição gráfica.
+*   **Painel Lateral do Spotify (Playlist)**: Um reprodutor lateral retrátil e fluído ("slide-out panel") que permite aos visitantes desfrutarem de uma playlist musical temática enquanto navegam pelas obras de Sofia, enriquecendo a experiência sensorial do portfólio.
+*   **Modo Escuro Dinâmico**: Tema dark mode criado para alternar entre claro e escuro com um botão de controlo, incluindo ajustes de contraste e legibilidade em `.contact-info`.
 *   **Responsividade Mobile de Alta Performance**: 
     *   Adaptação fluida e side-by-side de blocos principais mesmo em ecrãs pequenos.
     *   Controlos de visualização de galeria (lightbox) de alta visibilidade e otimizados para gestos táteis.
 *   **Rodapé (Footer) Sofisticado**: Estrutura multi-coluna estável com navegação fluida, dados reais de contacto e links de redes sociais.
 *   **Galeria Dinâmica Responsiva (Masonry)**: Portfólio gerado dinamicamente a partir de uma base de dados estruturada JSON (`portfolio-data.js`), totalmente compatível com a nova estrutura de pastas.
-*   **Sincronização Inteligente**: Automação nativa para sincronizar novos trabalhos de fotografia em segundos.
+*   **Sincronização Total Inteligente**: Automação nativa baseada em scripts PowerShell para detetar, catalogar e atualizar em segundos novos trabalhos de Design, Ilustração e Fotografia diretamente a partir da árvore de ficheiros para a base de dados JSON do site.
 *   **Experiência Imersiva (Lightbox)**: Visualização de alta resolução com suporte a setas físicas e navegação por teclado (Esquerda/Direita/Escape) e contador de progresso.
 *   **Contacto Nativamente Direto**: Formulário estático em `html/contact.html` integrado diretamente com o protocolo `mailto:`, abrindo a aplicação de email preferida do visitante sem necessidade de servidores de base de dados.
+
+---
+
+## Atualização Recente
+
+*   Ajuste das cores de texto e hiperligações da secção de contactos (`.contact-info`) para melhorar a legibilidade no modo claro e no modo escuro.
 
 ---
 
@@ -66,54 +74,59 @@ Por ser uma página puramente estática, o portfólio da Sofia pode ser hospedad
 
 ---
 
-## Sincronização Automática de Fotos
+## Sincronização e Automação (PowerShell)
 
-Para manter o portfólio atualizado com os novos trabalhos de fotografia sem precisar de mexer em código, criámos um **sincronizador inteligente** em PowerShell localizado em `scratch/update_photography.ps1`.
+Para manter o portfólio atualizado com os novos trabalhos (Design, Ilustração e Fotografia) sem necessidade de alterar o código do site manualmente, o projeto inclui ferramentas de sincronização e automação robustas em PowerShell na pasta `scratch/`:
 
-### Como adicionar novas fotos:
-1.  Cole as suas novas fotografias nas pastas correspondentes em:
-    *   `Portfólio/Fotografia/Paisagens/`
-    *   `Portfólio/Fotografia/Pessoas/`
-    *   `Portfólio/Fotografia/Detalhes/`
-2.  Abra o terminal PowerShell na raiz do projeto e execute o comando:
+### 1. Sincronizador Unificado e Completo (`scratch/sync_portfolio.ps1`)
+Este é o script principal recomendado para atualizar todo o site de uma só vez. Ele rastreia e regista no banco de dados tanto as obras de Design (Canva/Figma/Affinity) como Ilustração e Fotografia.
+*   **Como executar:** Abra o terminal na raiz do projeto e execute:
     ```powershell
-    powershell -ExecutionPolicy Bypass -File scratch/update_photography.ps1
+    powershell -ExecutionPolicy Bypass -File scratch/sync_portfolio.ps1
     ```
-3.  **O que o script faz automaticamente?**
-    *   Analisa as pastas de fotografia selecionadas.
-    *   Extrai a data de captura a partir do nome padrão do ficheiro (ex: `photo_2026-05-17...` $\rightarrow$ `"date": "2026-05-17"`).
-    *   Remove e filtra automaticamente duplicados do sistema operativo (como ficheiros `* (2).jpg`).
-    *   Codifica caracteres acentuados (como o `ó` de `Portfólio`) para garantir compatibilidade universal de links em servidores web.
-    *   Reordena cronologicamente os itens e reatribui sequencialmente os IDs na base de dados JSON (`js/portfolio-data.js`).
+*   **O que faz:**
+    *   Varre recursivamente a pasta `Portfólio/` em busca de novos ficheiros (`.png`, `.jpg`, `.jpeg`).
+    *   Identifica novos projetos e categoriza-os automaticamente com base na hierarquia de pastas.
+    *   Preenche títulos, caminhos de imagem relativos, descrições padrão e datas de registo.
+    *   Remove duplicados e corrige problemas de codificação especial (como o `ó` de `Portfólio`).
+    *   Classifica a lista alfabética e cronologicamente e gera o ficheiro final `js/portfolio-data.js` com IDs consecutivos.
+
+### 2. Sincronizadores Específicos
+*   **Fotografia (`scratch/update_photography.ps1`):** Focado exclusivamente na secção de fotografia. Analisa pastas como `Paisagens`, `Pessoas` e `Detalhes`, extraindo datas de captura dos nomes dos ficheiros (ex: `photo_2026-05-17...`).
+*   **Cartazes e Ilustrações (`scratch/update_cartazes.ps1`):** Script dedicado a catalogar novos cartazes e designs no portfólio.
+*   **Instalação de Tipografias (`scratch/download_fonts.ps1`):** Utilitário para descarregar e configurar localmente as fontes de suporte do scrapbook.
 
 ---
 
 ## Estrutura de Diretórios Organizada
 
-O repositório está perfeitamente higienizado de ficheiros dinâmicos obsoletos ou inacabados, apresentando a seguinte estrutura modular:
+O repositório apresenta a seguinte estrutura modular e altamente higienizada:
 
 ```
 site_portfolio/
-├── Portfólio/                 # Ficheiros de trabalhos originais (Design, Ilustração, Fotografia)
+├── Portfólio/                 # Obras de arte originais organizadas por Design, Ilustração e Fotografia
 ├── css/
-│   └── style.css              # Toda a estilização visual, variáveis e responsividade
+│   └── style.css              # Estilização visual completa (Grid, Flexbox, Scrapbook e Responsivo)
 ├── docs/                      # Pasta de documentação
-│   └── README.md              # Este ficheiro descritivo das especificações técnicas
-├── homepage/                  # Recursos e imagens estáticas para a página inicial
-├── html/                      # Páginas HTML principais do website
-│   ├── index.html             # Página inicial ("Sobre Mim")
-│   ├── portfolio.html         # Página da Galeria dinâmica e visualizador interativo
-│   ├── services.html          # Página de Serviços e Ferramentas
-│   └── contact.html           # Página de Contacto com formulário mailto
-├── images/                    # Imagens globais e favicon do website
-│   └── favicon.png            # Favicon e assinatura de marca transparente da Sofia
+│   └── README.md              # Este ficheiro descritivo das especificações técnicas do projeto
+├── homepage/                  # Imagens e recursos exclusivos da página sobre mim
+├── html/                      # Páginas HTML que compõem o website
+│   ├── index.html             # Página de Boas-vindas ("Sobre Mim")
+│   ├── portfolio.html         # Galeria de Portfólio dinâmica baseada em polaroids e lightbox
+│   ├── services.html          # Serviços criativos e ferramentas dominadas
+│   └── contact.html           # Formulário de contacto nativo mailto
+├── images/                    # Imagens globais estruturais da interface e logotipo
+│   └── favicon.png            # Favicon oficial transparente
 ├── js/
-│   ├── script.js              # Lógica principal (Menu, Playlist Spotify, Lightbox e caminhos)
-│   └── portfolio-data.js      # Base de dados JSON dos projetos (Gerada por Script)
-├── scratch/
-│   └── update_photography.ps1  # Script PowerShell para sincronização de fotos
-├── serviços/                  # Logótipos dos programas utilizados na página de serviços
-└── index.html                 # Ficheiro raiz para redirecionamento automático instantâneo
+│   ├── script.js              # Interações e lógica client-side (lightbox, spotify drawer, etc.)
+│   └── portfolio-data.js      # Dados JSON de catálogo de obras gerados por script de automação
+├── scratch/                   # Scripts e utilitários de automação em PowerShell
+│   ├── sync_portfolio.ps1     # Sincronizador de portfólio completo (Design + Ilustração + Foto)
+│   ├── update_photography.ps1 # Sincronizador específico de fotografias
+│   ├── update_cartazes.ps1    # Sincronizador específico de designs/cartazes
+│   └── download_fonts.ps1     # Script utilitário para download e setup de tipografias
+├── serviços/                  # Logótipos dos programas para a secção de competências de serviços
+└── index.html                 # Ponto de entrada que redireciona automaticamente para o site em html/
 ```
 
 ---

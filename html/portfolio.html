@@ -6,8 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Navegue pela galeria completa de trabalhos de Sofia.">
     <title>A Arte de Sofia | Portfólio</title>
-    <link rel="stylesheet" href="../css/style.css?v=1.0.1">
+    <link rel="stylesheet" href="../css/style.css?v=1.1">
     <link rel="icon" type="image/png" href="../images/favicon.png">
+    <script>
+        (function() {
+            var saved = localStorage.getItem('theme');
+            var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (saved === 'dark' || (!saved && prefersDark)) {
+                document.documentElement.classList.add('dark-mode');
+            }
+        })();
+    </script>
 </head>
 
 <body class="portfolio-page">
@@ -15,17 +24,24 @@
     <header>
         <nav>
             <a href="index.html" class="logo">A Arte de Sofia</a>
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
             <ul class="nav-links">
                 <li><a href="index.html">Sobre Mim</a></li>
                 <li><a href="portfolio.html">Portfólio</a></li>
                 <li><a href="services.html">Serviços</a></li>
                 <li><a href="contact.html">Contactos</a></li>
             </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Alternar tema">
+                    <span class="icon-sun">☀️</span>
+                    <span class="icon-moon">🌙</span>
+                    <span class="toggle-label">Tema</span>
+                </button>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
         </nav>
     </header>
 
